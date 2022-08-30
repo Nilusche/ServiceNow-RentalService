@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Rental" max_length="40" name="x_879255_rental_se_rental" type="collection">
+        <element label="fee" max_length="40" name="fee" type="float"/>
+        <element label="item" max_length="32" name="item" reference="x_879255_rental_se_items" type="reference"/>
+        <element choice="1" label="Rental state" max_length="40" name="rental_state" type="choice">
+            <choice/>
+        </element>
+        <element label="renter" max_length="32" name="renter" reference="sys_user" type="reference"/>
+        <element label="Time from" max_length="40" name="time_from" type="glide_date"/>
+        <element label="Time to" max_length="40" name="time_to" type="glide_date"/>
+        <element label="Total price" max_length="40" name="total_price" type="float"/>
+        <index name="index">
+            <element name="item"/>
+        </index>
+        <index name="index2">
+            <element name="renter"/>
+        </index>
+    </element>
+</database>
