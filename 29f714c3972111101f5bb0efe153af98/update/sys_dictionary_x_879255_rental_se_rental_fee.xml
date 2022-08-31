@@ -14,10 +14,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>fee</column_label>
+        <column_label>Fee</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>0</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-30 16:42:49</sys_created_on>
-        <sys_id>4eafe84b976111109823fed11153af72</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>fee</sys_name>
+        <sys_id>b413f0c797a111101f5bb0efe153af47</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Fee</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_dictionary_x_879255_rental_se_rental_fee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-30 16:42:49</sys_updated_on>
+        <sys_updated_on>2022-08-31 15:55:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

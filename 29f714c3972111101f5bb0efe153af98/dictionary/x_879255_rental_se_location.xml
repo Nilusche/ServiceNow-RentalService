@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Location" max_length="40" name="x_879255_rental_se_location" type="collection">
-        <element label="country" max_length="32" name="country" reference="x_879255_rental_se_country" type="reference"/>
+    <element label="Location" max_length="40" name="x_879255_rental_se_location" sizeclass="0" type="collection">
+        <element label="country" mandatory="true" max_length="32" name="country" reference="x_879255_rental_se_country" type="reference"/>
         <element label="description" max_length="4000" name="description" type="string"/>
-        <element label="name" max_length="40" name="name" type="string"/>
-        <element label="Postcal code" max_length="40" name="postcal_code" type="integer"/>
+        <element label="name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="format=none" label="Postalcode" mandatory="true" max_length="40" name="postalcode" type="integer"/>
+        <element label="Street" mandatory="true" max_length="40" name="street" type="string"/>
         <index name="index">
             <element name="country"/>
         </index>

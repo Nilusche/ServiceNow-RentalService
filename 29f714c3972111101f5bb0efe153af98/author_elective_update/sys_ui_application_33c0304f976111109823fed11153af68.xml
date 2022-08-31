@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Stats</name>
+        <order/>
+        <roles>x_879255_rental_se.stats_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-30 16:43:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33c0304f976111109823fed11153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stats</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_ui_application_33c0304f976111109823fed11153af68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-30 16:43:26</sys_updated_on>
+    </sys_ui_application>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_ui_application_33c0304f976111109823fed11153af68</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Stats</name>
+        <order/>
+        <roles>x_879255_rental_se.stats_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-30 16:43:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33c0304f976111109823fed11153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stats</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_ui_application_33c0304f976111109823fed11153af68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-30 16:43:26</sys_updated_on>
+    </sys_ui_application>
+</record_update>]]></payload>
+        <payload_hash>-1230778134</payload_hash>
+        <record_name>Stats</record_name>
+        <reverted_from/>
+        <source>8413b0c797a111101f5bb0efe153af45</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-30 16:53:31</sys_created_on>
+        <sys_id>ab1338c797a111101f5bb0efe153afb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182efac20060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-30 16:53:31</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>6b1338c758a1111037e9e2f6a5c11db7</update_guid>
+        <update_guid_history>6b1338c758a1111037e9e2f6a5c11db7:-1230778134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-31 14:50:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>204833d08845466095f1870728399310</sys_id>
+        <sys_metadata>33c0304f976111109823fed11153af68</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stats</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sys_ui_application_33c0304f976111109823fed11153af68</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_33c0304f976111109823fed11153af68">ab1338c797a111101f5bb0efe153afb7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-31 14:50:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
