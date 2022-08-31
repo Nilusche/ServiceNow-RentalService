@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>renter</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-31 15:48:40</sys_created_on>
+        <sys_id>e6cde5db976111101f5bb0efe153af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>renter</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e6cde5db976111101f5bb0efe153af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-31 15:48:40</sys_updated_on>
+        <table>x_879255_rental_se_rental</table>
+        <ui_policy display_value="Sets additional fields to mandatory and readonly at runtime (total_price and renter)">b49de1db976111101f5bb0efe153afa1</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

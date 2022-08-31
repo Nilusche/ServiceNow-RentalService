@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Items" max_length="40" name="x_879255_rental_se_items" type="collection">
-        <element label="avaiable" max_length="40" name="avaiable" type="boolean"/>
+    <element label="Items" max_length="40" name="x_879255_rental_se_items" sizeclass="0" type="collection">
+        <element label="Available" max_length="40" name="avaiable" type="boolean"/>
         <element label="categories" mandatory="true" max_length="32" name="categories" reference="x_879255_rental_se_category" type="reference"/>
         <element label="description" max_length="40" name="description" type="string"/>
-        <element label="location" mandatory="true" max_length="32" name="location" reference="x_879255_rental_se_location" type="reference"/>
+        <element default="c17c951b972111101f5bb0efe153afed" label="location" mandatory="true" max_length="32" name="location" reference="x_879255_rental_se_location" type="reference"/>
         <element label="name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="owner" max_length="32" name="owner" read_only="true" reference="sys_user" type="reference"/>
         <element label="Price per unit" mandatory="true" max_length="40" name="price_per_unit" type="float"/>
         <index name="index">
-            <element name="owner"/>
+            <element name="categories"/>
         </index>
         <index name="index2">
             <element name="location"/>
         </index>
         <index name="index3">
-            <element name="categories"/>
+            <element name="owner"/>
         </index>
     </element>
 </database>
