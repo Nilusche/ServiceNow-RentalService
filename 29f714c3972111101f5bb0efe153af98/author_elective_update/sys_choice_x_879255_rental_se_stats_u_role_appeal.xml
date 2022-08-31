@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_role_appeal" table="x_879255_rental_se_stats" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_role_appeal</element>
+            <name>x_879255_rental_se_stats</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-31 16:56:47</sys_created_on>
+            <sys_id>d97d7d1f97a111101f5bb0efe153af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_role_appeal</sys_name>
+            <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+            <sys_update_name>sys_choice_x_879255_rental_se_stats_u_role_appeal</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-31 16:56:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_role_appeal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student</label>
+            <language>en</language>
+            <name>x_879255_rental_se_stats</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-31 16:56:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>957d7d1f97a111101f5bb0efe153af8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-31 16:56:47</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_role_appeal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Co-worker</label>
+            <language>en</language>
+            <name>x_879255_rental_se_stats</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-31 16:56:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd7d7d1f97a111101f5bb0efe153af8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-31 16:56:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
