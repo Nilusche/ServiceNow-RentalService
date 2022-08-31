@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="785bb99b97a111101f5bb0efe153af30" sys_domain="global" table="x_879255_rental_se_stats" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-31 16:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c5bb99b97a111101f5bb0efe153af33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_879255_rental_se_stats" name="x_879255_rental_se_stats" sys_domain="global" view="Default view">785bb99b97a111101f5bb0efe153af30</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_879255_rental_se_stats" sys_domain="global" view="Default view">80d879d797a111101f5bb0efe153affe</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-31 16:47:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-31 16:48:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af7b7d9b97a111101f5bb0efe153af93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_879255_rental_se_stats" name="x_879255_rental_se_stats" sys_domain="global" view="Default view">785bb99b97a111101f5bb0efe153af30</sys_ui_form>
+            <sys_ui_section caption="Message" display_value="Message" name="x_879255_rental_se_stats" sys_domain="global" view="Default view">677b7d9b97a111101f5bb0efe153af92</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-31 16:48:13</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_879255_rental_se_stats</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-31 16:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>785bb99b97a111101f5bb0efe153af30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_879255_rental_se_stats</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+            <sys_update_name>sys_ui_form_sections_785bb99b97a111101f5bb0efe153af30</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-31 16:47:29</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
