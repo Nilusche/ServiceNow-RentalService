@@ -4,8 +4,9 @@
         <element label="Item" mandatory="true" max_length="32" name="item" reference="x_879255_rental_se_items" reference_qual="rented=false^EQ" reference_qual_condition="rented=false^EQ" type="reference"/>
         <element choice="1" default="1" label="Rental state" max_length="40" name="rental_state" read_only="true" type="choice">
             <choice>
+                <element inactive_on_update="false" label="open" value="2"/>
                 <element inactive_on_update="false" label="draft" sequence="0" value="1"/>
-                <element inactive_on_update="false" label="approved" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="rented" sequence="2" value="3"/>
             </choice>
         </element>
         <element label="renter" max_length="32" name="renter" read_only="true" reference="sys_user" type="reference"/>
