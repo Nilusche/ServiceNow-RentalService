@@ -5,7 +5,7 @@
         <action_delete>false</action_delete>
         <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
@@ -48,7 +48,12 @@
 		return;
 	}
 	
-	//The following steps check if I can afford to rent this product with my balance
+	// update rented status
+	var item  = current.item.getRefRecord();
+	item.setValue("rented",true);
+	item.update();
+	
+	//The following steps check if the Rentee can afford to rent this product with their balance
 	var userStats = new GlideRecord("x_879255_rental_se_stats");
 	userStats.addQuery("user", current.renter );
 	userStats.query();
@@ -59,22 +64,28 @@
 		return;
 	}
 	
+	//precalculate rate of fee
+	current.fee = current.item.price_per_unit * 0.19;
 	
-	// Update Balance and current Item count
+	// Update Rentee Balance and current Item count
 	var current_price = userStats.total_balance;
 	var current_num_items_rented = userStats.num_items_rented;
 	userStats.setValue("total_balance", current_price - current.total_price);
 	userStats.setValue("num_items_rented",current_num_items_rented + 1);
 	userStats.update();
 	
+	//Update Renter Balance but also deduct the fee that goes straight to corporate (quid pro quo)
+	var renterStats = new GlideRecord("x_879255_rental_se_stats");
+	renterStats.addQuery("user", current.item.owner);
+	renterStats.query();
+	renterStats.next();
 	
-	var item  = current.item.getRefRecord();
-	item.setValue("rented",true);
-	item.update();
+	var current_balance = parseFloat(renterStats.getValue("total_balance"));
+	var updatedBalance =  current_balance + current.total_price - current.fee;
+	renterStats.setValue("total_balance",updatedBalance);
+	renterStats.update();
 	
-	
-	
-	current.fee = current.item.price_per_unit * 0.19;
+
 
 	gs.addInfoMessage("You have rented this Item now");
 })(current, previous);]]></script>
@@ -84,7 +95,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d53d2d9b976111101f5bb0efe153afc9</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Rental Processing [before]</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -92,7 +103,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_d53d2d9b976111101f5bb0efe153afc9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-03 14:49:12</sys_updated_on>
+        <sys_updated_on>2022-09-03 17:49:11</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
