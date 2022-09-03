@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_879255_rental_se.SPortalUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SPortalUtils</name>
+        <script><![CDATA[var SPortalUtils = Class.create();
+SPortalUtils.prototype = {
+    initialize: function() {
+    },
+	getLocations:function(){
+		var locationGR = new GlideRecord("x_879255_rental_se_location");
+		locationGR.query();
+		var locations = [];
+		while(locationGR.next()){
+			var l = {};
+			l.sys_id = locationGR.getValue("sys_id");
+			l.name = locationGR.getValue("name");
+			locations.push(l);
+		}
+		return locations;
+	},
+	getCategories:function(){
+		var categoryGR = new GlideRecord("x_879255_rental_se_category");
+		categoryGR.query();
+		var categories = [];
+		while(categoryGR.next()){
+			var c = {};
+			c.sys_id = categoryGR.getValue("sys_id");
+			c.name = categoryGR.getValue("name");
+			categories.push(c);
+		}
+		return categories;
+	},
+	getItems:function(){
+		var itemsGR = new GlideRecord("x_879255_rental_se_items");
+		itemsGR.addQuery("rented", false);
+		itemsGR.query();
+		var items = [];
+		while(itemsGR.next()){
+			var i = {};
+			i.sys_id = itemsGR.getValue("sys_id");
+			i.name = itemsGR.getValue("name");
+			i.price = itemsGR.getValue("price_per_unit");
+			items.push(i);
+		}
+		return items;
+	},
+	createItem:function(inp){
+		var itemGR = new GlideRecord("x_879255_rental_se_items");
+		itemGR.initialize();
+		itemGR.setValue("name", inp.name);
+		itemGR.setValue("description", inp.desc);
+		itemGR.setValue("price_per_unit", inp.price);
+		itemGR.insert();
+		itemGR.setValue("owner", inp.owner);
+		itemGR.setValue("categories", inp.category);
+		itemGR.setValue("rented", false);
+		itemGR.update();
+	},
+	createRental:function(inp){
+		var rentalGR = new GlideRecord("x_879255_rental_se_rental");
+		rentalGR.initialize();
+		rentalGR.setValue("item", inp.item);
+		rentalGR.setValue("total_price", inp.total_price);
+		rentalGR.setValue("renter", inp.renter);
+		rentalGR.setValue("time_from", inp.time_from);
+		rentalGR.setValue("time_to", inp.time_to);
+		
+		rentalGR.insert();
+	},
+    type: 'SPortalUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-03 12:19:56</sys_created_on>
+        <sys_id>713adc10977111101f5bb0efe153af27</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>SPortalUtils</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_script_include_713adc10977111101f5bb0efe153af27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-03 14:44:11</sys_updated_on>
+    </sys_script_include>
+</record_update>

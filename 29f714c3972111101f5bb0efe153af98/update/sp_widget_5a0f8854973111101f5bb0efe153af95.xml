@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $rootScope) {
+  /* widget controller */
+  var c = this;
+	c.submitting = false;
+	c.submit = function(){
+		if(c.data.newItem.name == "" ||
+			c.data.newItem.name == ""||
+			c.data.newItem.price ==""||
+			c.data.newItem.location == ""||
+			c.data.newItem.category == ""){
+			spUtil.addErrorMessage("All the mandatory fields must be filled");
+			return;
+		}
+		if(c.data.newItem.price < 0){
+			spUtil.addErrorMessage("The Price field cannot be negative")
+			return;
+		}
+		c.data.action = "createItem";
+		c.submitting = true;
+		c.server.update().then(function(){
+			c.submitting = false;
+			spUtil.addInfoMessage(c.data.message);
+		})
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:black;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #00A498;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 button,
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #00A498;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 button:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #008077;
+}
+input[type="submit"]{
+  border-radius:4px;
+  transition:.2s;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>create_item</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Create Item</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	
+	data.ownerID = gs.getUserID();
+	data.newItem= {
+		name: "",
+		desc: "",
+		price: "",
+		location: "",
+		category: "",
+		owner: data.ownerID
+	}
+	data.locations = new SPortalUtils().getLocations();
+	data.categories = new SPortalUtils().getCategories();
+	data.ownerName = gs.getUserDisplayName();
+	
+	if(input && input.action == "createItem"){
+		new SPortalUtils().createItem(input.newItem);
+		data.message = "A new Item has been submitted to the inventory successfully"
+	}
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-03 11:28:17</sys_created_on>
+        <sys_id>5a0f8854973111101f5bb0efe153af95</sys_id>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_name>Create Item</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sp_widget_5a0f8854973111101f5bb0efe153af95</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-03 13:11:36</sys_updated_on>
+        <template><![CDATA[<div class="form-style-5">
+  <form>
+    <fieldset>
+      <legend><span class="number">1</span> Item Info</legend>
+      <input type="text" name="name" ng-model="data.newItem.name" placeholder="Name *" required>
+      <input type="text" name="description" ng-model="data.newItem.desc" placeholder="Short description" required>
+      <input type="number" name="price" ng-model="data.newItem.price" placeholder="Price * (larger than 0€)" required>
+    </fieldset>
+    <fieldset>
+      <legend><span  class="number">2</span>Categorization Info</legend>
+      <label for="location">Renting Location *</label>
+      <select id="location" ng-model="data.newItem.location" name="location" required> 
+        <option ng-value="l.sys_id"  ng-repeat="l in data.locations">{{l.name}}</option>
+      </select>  
+      <label for="categories">Category * </label>
+      <select id="categories" ng-model="data.newItem.category" name="categories" required>
+          <option ng-repeat="ca in data.categories"  ng-value="ca.sys_id">{{ca.name}}</option>
+      </select>     
+    </fieldset>
+    <button type="submit" ng-click="c.submit()" ng-disabled="c.submitting">Submit new Item</button>
+  </form>
+</div>]]></template>
+    </sp_widget>
+</record_update>
