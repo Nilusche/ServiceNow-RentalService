@@ -29,11 +29,27 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	//  Set initial stat values
-	current.setValue("total_balance", 10); // every user gets a bit of balance for the first time
-	current.setValue("verified", false);
-	current.setValue("num_items_placed", 0);
-	current.setValue("num_items_rented", 0);
+	//check if stat exists
+	var stat = new GlideRecord("x_879255_rental_se_stats");
+	stat.addQuery("user", current.user);
+	stat.query();
+	
+	
+	if(stat.getRowCount() == 0){
+		//  Set initial stat values
+		current.setValue("total_balance", 10); // every user gets a bit of balance for the first time
+		current.setValue("verified", false);
+		current.setValue("num_items_placed", 0);
+		current.setValue("num_items_rented", 0);
+	}else{
+		stat.next();
+		stat.setValue("u_apply_message",current.u_apply_message);
+		stat.setValue("u_credentials",current.u_credentials);
+		stat.update();
+		gs.info("user alread exists");
+		current.setAbortAction(true);
+	}
+	
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -42,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32ec751f97a111101f5bb0efe153af52</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Stat Initiation [before]</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -50,7 +66,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_32ec751f97a111101f5bb0efe153af52</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-01 16:42:41</sys_updated_on>
+        <sys_updated_on>2022-09-04 18:07:53</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

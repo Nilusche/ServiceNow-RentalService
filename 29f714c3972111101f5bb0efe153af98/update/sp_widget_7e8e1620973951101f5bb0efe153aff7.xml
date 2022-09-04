@@ -5,40 +5,23 @@
   /* widget controller */
   var c = this;
 	c.submitting = false;
+	c.form = true;
 	c.submit = function(){
-		if(c.data.rentals.length == 0){
-			spUtil.addErrorMessage("You need to select at least one item");
+		if(c.data.newStat.credential == "" ||
+			c.data.newStat.name == ""||
+			c.data.newStat.role ==""){
+			spUtil.addErrorMessage("All the mandatory fields must be filled");
 			return;
 		}
 
-		c.data.action = "returnItems";
+		c.data.action = "elevateRole";
 		c.submitting = true;
 		c.server.update().then(function(){
 			c.submitting = false;
+			c.form = false;
 			spUtil.addInfoMessage(c.data.message);
-			c.data.rentals = [];
-			c.server.update();
 		})
 	}
-	
-	c.updateRentals = function(id){
-		var index_found = -1;
-		for (var i=0; i<c.data.rentals.length; i++){
-			if (c.data.rentals[i] == id){
-				index_found = i;
-			}
-		}
-		
-		if(index_found != -1){
-			//if found then remove
-			c.data.rentals.splice(index_found, 1);
-		}else{
-			//else add
-			c.data.rentals.push(id);
-		}
-	}
-	
-	
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>.form-style-5{
@@ -79,8 +62,8 @@
 	font-size: 15px;
 	margin: 0;
 	outline: 0;
+	padding: 10px;
 	width: 100%;
-  padding:2px;
 	box-sizing: border-box; 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box; 
@@ -102,12 +85,12 @@
 .form-style-5 select:focus{
 	background: #d2d9dd;
 }
-.form-style-5 select[multiple]:focus option:checked {
-  background: #D61C4E linear-gradient(0deg, #D61C4E 0%, #D61C4E 100%);
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
 }
-
 .form-style-5 .number {
-	background: #D61C4E;
+	background: #00A498;
 	color: #fff;
 	height: 30px;
 	width: 30px;
@@ -128,67 +111,23 @@
 	padding: 19px 39px 18px 39px;
 	color: #FFF;
 	margin: 0 auto;
-	background: #D61C4E;
+	background: #00A498;
 	font-size: 18px;
 	text-align: center;
 	font-style: normal;
 	width: 100%;
-	border: 1px solid #cc1800;
+	border: 1px solid #16a085;
 	border-width: 1px 1px 3px;
 	margin-bottom: 10px;
 }
 .form-style-5 button:hover,
 .form-style-5 input[type="button"]:hover
 {
-	background: #cc1800;
+	background: #008077;
 }
-button[type="submit"]{
+input[type="submit"]{
   border-radius:4px;
   transition:.2s;
-}
-
-
-.checkbox {
-  position:flex;
-    display:block;
-    width:100%;
-    height:60px;
-    background:#d2d9dd;
-    overflow:hidden;
-  border-radius:4px;
-  left:0;
-}
-
-.checkbox input{
-  margin-left:0px;
-}
-.checkbox:not(:last-child){
-    border-bottom:2px solid white;
-}
-.check {
-    width:50px;
-    height:50px;
-    position:absolute;
-    opacity:0;
-}
-.label_ span {
-    position:absolute;
-    margin-top:12px;
-    font-size:15px;
-  color:black;
-}
-.path1{
-    stroke-dasharray:400;
-    stroke-dashoffset:400;
-    transition:.5s all;
-}
-.path2{
-    stroke-dasharray:1800;
-    stroke-dashoffset:1800;
-    transition:.5s all;
-}
-.check:checked + label svg g path {
-    stroke-dashoffset:0;
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -196,10 +135,10 @@ button[type="submit"]{
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>return_items</id>
+        <id>register_guest</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
-        <name>Return Items</name>
+        <name>register_guest</name>
         <option_schema/>
         <public>false</public>
         <roles/>
@@ -209,59 +148,55 @@ button[type="submit"]{
 
 	
 	data.ownerID = gs.getUserID();
-	
-	data.rentals = [];
-
-	data.items = new SPortalUtils().getMyRentals(data.ownerID);
-
-	
-	if(input && input.action == "returnItems"){
-		new SPortalUtils().returnItems(input.rentals);
-		data.message = "The items have been returned successfully";
+	data.newStat= {
+		credential: "",
+		role: "",
+		message: "",
+		owner: data.ownerID
 	}
+
 	
+	if(input && input.action == "elevateRole"){
+		new SPortalUtils().elevateRole(input.newStat);
+		data.message = "Your request for Registration has been submitted. A faculty member with appropriate permissions will review your request."
+	}
 	
 	
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-03 15:28:13</sys_created_on>
-        <sys_id>4df5819497f111101f5bb0efe153aff4</sys_id>
-        <sys_mod_count>96</sys_mod_count>
-        <sys_name>Return Items</sys_name>
+        <sys_created_on>2022-09-04 16:33:45</sys_created_on>
+        <sys_id>7e8e1620973951101f5bb0efe153aff7</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>register_guest</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_update_name>sp_widget_4df5819497f111101f5bb0efe153aff4</sys_update_name>
+        <sys_update_name>sp_widget_7e8e1620973951101f5bb0efe153aff7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-04 17:03:55</sys_updated_on>
+        <sys_updated_on>2022-09-04 18:08:32</sys_updated_on>
         <template><![CDATA[<div class="form-style-5">
-  <form>
+  <form ng-if="c.form">
     <fieldset>
-      <legend><span class="number">1</span>Choose which Items you would like to return</legend>
-      <label for="item"> Items *</label>
-      <div ng-if="data.items.length ==0">
-        There are no items to return currently
-      </div>
-      <div class="checkbox_" id="item" ng-repeat="item in data.items">
-        <input type="checkbox" id="{{item.sys_id}}" class="check" ng-click="c.updateRentals(item.sys_id)"/>
-        <label for="{{item.sys_id}}" class="label_">
-          <svg width="50" height="50" viewbox="0 0 100 100">
-            <rect x="30" y="20" width="50" height="50" stroke="#D61C4E" fill="none" />
-            <g transform="translate(0,-952.36218)">
-              <path d="m 13,983 c 33,6 40,26 55,48 " stroke="#D61C4E" stroke-width="3" class="path1" fill="none" />
-              <path d="M 75,970 C 51,981 34,1014 25,1031 " stroke="#D61C4E" stroke-width="3" class="path1" fill="none" />
-            </g>
-          </svg>
-          <span>{{item.name}} (End: {{item.end}})</span>
-        </label>
-      </div>
-
+      <legend><span class="number">1</span> Confirm Credentials</legend>
+      <input type="text" name="credential" ng-model="data.newStat.credential" placeholder="Credential ID *" required>
+       <label for="role">Applying for role</label>
+      <select id="role" ng-model="data.newStat.role" required> 
+        <option value="1" >Student</option>
+        <option value="2">Co-Worker</option>
+      </select> 
     </fieldset>
-    <button type="submit" ng-click="c.submit()" ng-disabled="c.submitting">Return Item(s)</button>
+    <fieldset>
+      <legend><span  class="number">2</span>Message</legend>
+      <label for="message">Applying message</label>
+      <textarea id="message" ng-model="data.newStat.message"></textarea>
+    </fieldset>
+    <button type="submit" ng-click="c.submit()" ng-disabled="c.submitting">Apply</button>
   </form>
-</div>
-]]></template>
+  <div ng-if="!c.form">
+    Thanks for applying
+  </div>
+</div>]]></template>
     </sp_widget>
 </record_update>

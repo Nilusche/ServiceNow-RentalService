@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="verified_role" label="Appealing for role" language="en" table="x_879255_rental_se_stats">
+    <sys_documentation element="verified_role" label="Applying for role" language="en" table="x_879255_rental_se_stats">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>verified_role</element>
             <help/>
             <hint/>
-            <label>Appealing for role</label>
+            <label>Applying for role</label>
             <language>en</language>
             <name>x_879255_rental_se_stats</name>
-            <plural>Appealing for roles</plural>
+            <plural>Applying for roles</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-08-31 16:59:09</sys_created_on>
             <sys_id>27fdf55f97a111101f5bb0efe153af5b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Appealing for role</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Applying for role</sys_name>
             <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
             <sys_policy/>
             <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
             <sys_update_name>sys_documentation_x_879255_rental_se_stats_verified_role_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-08-31 17:05:32</sys_updated_on>
+            <sys_updated_on>2022-09-04 17:37:43</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

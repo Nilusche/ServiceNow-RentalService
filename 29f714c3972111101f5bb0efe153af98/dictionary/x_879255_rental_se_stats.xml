@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Stats" max_length="40" name="x_879255_rental_se_stats" sizeclass="0" type="collection">
+    <element label="Stats" max_length="40" name="x_879255_rental_se_stats" sizeclass="1" type="collection">
         <element label="Num items placed" max_length="40" name="num_items_placed" type="integer"/>
         <element label="Num items rented" max_length="40" name="num_items_rented" type="integer"/>
         <element label="Total balance" max_length="40" name="total_balance" type="float"/>
-        <element label="Appeal from" max_length="32" name="user" read_only="true" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Appeal Message" mandatory="true" max_length="4000" name="u_appeal_message" type="string"/>
+        <element label="Applicant" max_length="32" name="user" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Apply message" max_length="4000" name="u_apply_message" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Credentials" mandatory="true" max_length="40" name="u_credentials" type="string"/>
-        <element label="verified" max_length="40" name="verified" type="boolean"/>
-        <element choice="1" default="1" label="Appealing for role" mandatory="true" max_length="40" name="verified_role" type="choice">
+        <element choice="1" default="1" label="Applying for role" mandatory="true" max_length="40" name="verified_role" type="choice">
             <choice>
                 <element inactive_on_update="false" label="co-worker" value="2"/>
                 <element inactive_on_update="false" label="student" value="1"/>

@@ -14,7 +14,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Appealing for role</column_label>
+        <column_label>Applying for role</column_label>
         <comments/>
         <create_roles/>
         <default_value>1</default_value>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-31 16:59:08</sys_created_on>
         <sys_id>03bdf11f97a111101f5bb0efe153afa0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Appealing for role</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Applying for role</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_dictionary_x_879255_rental_se_stats_verified_role</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-31 17:08:46</sys_updated_on>
+        <sys_updated_on>2022-09-04 17:37:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
