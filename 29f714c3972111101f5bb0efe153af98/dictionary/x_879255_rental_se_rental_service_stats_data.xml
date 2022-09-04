@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Rental Service Stats Data" max_length="40" name="x_879255_rental_se_rental_service_stats_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Applicant ID" label="Applicant ID" max_length="40" name="u_applicant_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Applicant Name" label="Applicant Name" max_length="40" name="u_applicant_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Applying for role" label="Applying for role" max_length="40" name="u_applying_for_role" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Apply Message" label="Apply Message" max_length="40" name="u_apply_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Credentials" label="Credentials" max_length="40" name="u_credentials" type="string"/>
+    </element>
+</database>
