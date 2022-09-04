@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 10:00:20</sys_created_on>
+        <sys_id>6344096c97b151101f5bb0efe153af5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_42072_expense_ma.Admin</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_security_acl display_value="">7244096c97b151101f5bb0efe153af8c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6344096c97b151101f5bb0efe153af5b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 10:00:20</sys_updated_on>
+        <sys_user_role display_value="x_42072_expense_ma.Admin" name="x_42072_expense_ma.Admin">fdbb4614972511101f5bb0efe153af92</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_security_acl_role_6344096c97b151101f5bb0efe153af5b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-04 10:00:20</sys_created_on><sys_id>6344096c97b151101f5bb0efe153af5b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_42072_expense_ma.Admin</sys_name><sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package><sys_policy/><sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope><sys_security_acl display_value="">7244096c97b151101f5bb0efe153af8c</sys_security_acl><sys_update_name>sys_security_acl_role_6344096c97b151101f5bb0efe153af5b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-04 10:00:20</sys_updated_on><sys_user_role display_value="x_42072_expense_ma.Admin" name="x_42072_expense_ma.Admin">fdbb4614972511101f5bb0efe153af92</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>974475616</payload_hash>
+        <record_name>.x_42072_expense_ma.Admin</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 10:00:20</sys_created_on>
+        <sys_id>8484896c97b151101f5bb0efe153af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18307f1a6bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 10:00:20</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cc84896c36b15110fea5b89cce5b7e03</update_guid>
+        <update_guid_history>cc84896c36b15110fea5b89cce5b7e03:974475616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_42072_expense_ma.Admin">ec35c9ac97b151101f5bb0efe153afc7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 10:03:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>023153f22fba4b08800704b44000ff10</sys_id>
+        <sys_metadata>6344096c97b151101f5bb0efe153af5b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_42072_expense_ma.Admin</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent display_value="x_879255_rental_se_stats">7244096c97b151101f5bb0efe153af8c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6344096c97b151101f5bb0efe153af5b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6344096c97b151101f5bb0efe153af5b">8484896c97b151101f5bb0efe153af04</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 10:03:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
