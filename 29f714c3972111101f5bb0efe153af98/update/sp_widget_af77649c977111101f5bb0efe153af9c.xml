@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $rootScope) {
+  /* widget controller */
+  var c = this;
+	c.submitting = false;
+	c.submit = function(){
+		if(c.data.newRental.item == ""||
+			c.data.newRental.total_price ==""||
+			c.data.newRental.time_from == ""||
+			c.data.newRental.time_to == ""){
+			spUtil.addErrorMessage("All the mandatory fields must be filled");
+			return;
+		}
+
+		c.data.action = "createRental";
+		c.submitting = true;
+		c.server.update().then(function(){
+			c.submitting = false;
+		})
+	}
+	
+	c.updatePrice = function(){
+		for(var i=0; i<c.data.items.length; i++){
+			if(c.data.items[i].sys_id == c.data.newRental.item){
+				c.data.newRental.total_price = parseFloat(c.data.items[i].price);
+				break;
+			}
+		}
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:black;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #00A498;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 button,
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #00A498;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 button:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #008077;
+}
+input[type="submit"]{
+  border-radius:4px;
+  transition:.2s;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>create_rental</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Create Rental</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	
+	data.ownerID = gs.getUserID();
+	
+	data.newRental= {
+		item: "",
+		time_from: "",
+		time_to: "",
+		total_price: "",
+		renter: data.ownerID
+	}
+	data.items = new SPortalUtils().getItems();
+	
+	
+	if(input && input.action == "createRental"){
+		new SPortalUtils().createRental(input.newRental);
+	}
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-03 13:15:08</sys_created_on>
+        <sys_id>af77649c977111101f5bb0efe153af9c</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>Create Rental</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sp_widget_af77649c977111101f5bb0efe153af9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-03 14:45:12</sys_updated_on>
+        <template><![CDATA[<div class="form-style-5">
+  <form>
+    <fieldset>
+      <legend><span class="number">1</span>Choose an Item</legend>
+      <label for="item"> Items *</label>
+      <select id="item" ng-model="data.newRental.item" name="item" required ng-change="c.updatePrice($event.target.value)"> 
+        <option ng-value="i.sys_id"  ng-repeat="i in data.items">{{i.name}}</option>
+      </select> 
+      <label for="price"> Item price in EUR calculating ...</label>
+      <input type="number" id="price" disabled readonly ng-value="data.newRental.total_price"  ng-model="data.newRental.total_price">
+    </fieldset>
+    <fieldset>
+      <legend><span  class="number">2</span>Set Renting Time</legend>
+      <label for="from"> Date from</label>
+      <input type="date" id="from" name="from" ng-model="data.newRental.time_from" placeholder="Date from" required>
+      <label for="to"> Date to</label>
+      <input type="date" id="to" name="to" ng-model="data.newRental.time_to" placeholder="Date to" required> 
+       <label for=""> Make sure you have sufficient balance to rent this item</label>
+    </fieldset>
+    <button type="submit" ng-click="c.submit()" ng-disabled="c.submitting">Rent this Item</button>
+  </form>
+</div>]]></template>
+    </sp_widget>
+</record_update>
