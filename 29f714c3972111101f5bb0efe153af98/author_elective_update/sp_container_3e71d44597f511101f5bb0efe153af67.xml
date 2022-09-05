@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Return Items - Container 4</name>
+        <order>4</order>
+        <sp_page display_value="rs_return_items">57bbc0cd97b511101f5bb0efe153af19</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-05 19:34:24</sys_created_on>
+        <sys_id>3e71d44597f511101f5bb0efe153af67</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Return Items - Container 4</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sp_container_3e71d44597f511101f5bb0efe153af67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-05 19:36:17</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_container_3e71d44597f511101f5bb0efe153af67</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Return Items - Container 4</name><order>4</order><sp_page display_value="rs_return_items">57bbc0cd97b511101f5bb0efe153af19</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-05 19:34:24</sys_created_on><sys_id>3e71d44597f511101f5bb0efe153af67</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Return Items - Container 4</sys_name><sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package><sys_policy/><sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope><sys_update_name>sp_container_3e71d44597f511101f5bb0efe153af67</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-05 19:36:17</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-222396612</payload_hash>
+        <record_name>Return Items - Container 4</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-05 19:36:17</sys_created_on>
+        <sys_id>12e1d08597f511101f5bb0efe153af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1830f274ccc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-05 19:36:17</sys_updated_on>
+        <type>Container</type>
+        <update_guid>1ae1d085aef51110671d73872a02771c</update_guid>
+        <update_guid_history>1ae1d085aef51110671d73872a02771c:-222396612,7671d445b0f51110de5f7304dca9e369:1167577981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Return Items - Container 4">e8f1148597f511101f5bb0efe153af0e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-05 19:36:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>4720cb8550be425b959dcca278099201</sys_id>
+        <sys_metadata>3e71d44597f511101f5bb0efe153af67</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return Items - Container 4</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sp_container_3e71d44597f511101f5bb0efe153af67</sys_update_name>
+        <sys_update_version display_value="sp_container_3e71d44597f511101f5bb0efe153af67">12e1d08597f511101f5bb0efe153af1d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-05 19:36:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

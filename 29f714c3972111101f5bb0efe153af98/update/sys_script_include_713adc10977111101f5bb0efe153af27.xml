@@ -49,6 +49,20 @@ SPortalUtils.prototype = {
 		}
 		return items;
 	},
+	getMyItems:function(ownerID){
+		var itemsGR = new GlideRecord("x_879255_rental_se_items");
+		itemsGR.addQuery("owner", ownerID);
+		itemsGR.query();
+		var items = [];
+		while(itemsGR.next()){
+			var i = {};
+			i.sys_id = itemsGR.getValue("sys_id");
+			i.name = itemsGR.getValue("name");
+			i.price = itemsGR.getValue("price_per_unit");
+			items.push(i);
+		}
+		return items;
+	},
 	getAllItems:function(){
 		var itemsGR = new GlideRecord("x_879255_rental_se_items");
 		itemsGR.query();
@@ -64,6 +78,30 @@ SPortalUtils.prototype = {
 			i.avatar = itemsGR.owner.getRefRecord().getDisplayValue("avatar");
 			i.ownername = itemsGR.owner.getRefRecord().getValue("name");
 			i.created = itemsGR.getValue("sys_created_on");
+			items.push(i);
+		}
+		return items;
+	},
+	getMyRentalItems:function(ownerID){
+		var rentalGR = new GlideRecord("x_879255_rental_se_rental");
+		rentalGR.addQuery("renter", ownerID);
+		rentalGR.addQuery("rental_state", 3);
+		rentalGR.query();
+		var items = [];
+		while(rentalGR.next()){
+			var i = {};
+			
+			var item = rentalGR.item.getRefRecord();
+			
+			i.sys_id = item.getValue("sys_id");
+			i.name = item.getValue("name");
+			i.price = item.getValue("price_per_unit");
+			i.rented = item.getValue("rented");
+			i.category = item.categories.getRefRecord().getValue("name");
+			i.image = item.getDisplayValue("image");
+			i.avatar = item.owner.getRefRecord().getDisplayValue("avatar");
+			i.ownername = item.owner.getRefRecord().getValue("name");
+			i.created = item.getValue("sys_created_on");
 			items.push(i);
 		}
 		return items;
@@ -86,6 +124,7 @@ SPortalUtils.prototype = {
 		}
 		return items;
 	},
+	
 	createItem:function(inp){
 		var itemGR = new GlideRecord("x_879255_rental_se_items");
 		itemGR.initialize();
@@ -138,19 +177,27 @@ SPortalUtils.prototype = {
 			rentalGR.update();
 		}
 	},
+	deleteItems:function(items){
+		for(var i=0; i<items.length; i++){
+			var rentalID = items[i];
+			var item = new GlideRecord("x_879255_rental_se_items");
+			item.get(rentalID);
+			item.deleteRecord();
+		}
+	},
     type: 'SPortalUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-03 12:19:56</sys_created_on>
         <sys_id>713adc10977111101f5bb0efe153af27</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>SPortalUtils</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_include_713adc10977111101f5bb0efe153af27</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 16:17:39</sys_updated_on>
+        <sys_updated_on>2022-09-05 19:31:57</sys_updated_on>
     </sys_script_include>
 </record_update>
