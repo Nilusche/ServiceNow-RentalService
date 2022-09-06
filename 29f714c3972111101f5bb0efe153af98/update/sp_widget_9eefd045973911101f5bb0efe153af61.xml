@@ -179,21 +179,21 @@ a.color_box .fa {
 	data.target = options.target || "";
 	data.role = options.role || "";
 	
-	data.showIcon = gs.hasRole("test") == true;
+	data.showIcon = gs.hasRole("x_879255_rental_se.student") || gs.hasRole("x_879255_rental_se.admin")|| gs.hasRole("x_879255_rental_se.co_worker")
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-05 20:37:26</sys_created_on>
         <sys_id>9eefd045973911101f5bb0efe153af61</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Rolebased Link</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sp_widget_9eefd045973911101f5bb0efe153af61</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 20:43:43</sys_updated_on>
+        <sys_updated_on>2022-09-06 07:41:45</sys_updated_on>
         <template><![CDATA[<div class="iconlink" ng-class="{'high-contrast': accessibilityModeEnabled}" ng-if="data.showIcon">
   <!--// Top Icon -->
   <a ng-if="::(options.link_template == 'Top Icon' || !options.link_template)" ng-href="{{::data.href}}" class="top_icon {{::options.class_name}}" target="{{::data.target}}">

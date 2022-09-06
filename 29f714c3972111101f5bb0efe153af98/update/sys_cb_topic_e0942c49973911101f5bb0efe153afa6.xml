@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>99e3a849973911101f5bb0efe153afa1</category>
+        <channels/>
+        <connect_queue/>
+        <description>Topic allows users to rent an Item</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.39","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"f11edce580c94c2382b536aa3c2b609c":{"id":"f11edce580c94c2382b536aa3c2b609c","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"acae3a2c72cd42f79fb4cecb74a157c1":{"id":"acae3a2c72cd42f79fb4cecb74a157c1","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"eba505593acb4d3082b503e4100ae8cc","edgeType":"Edge","source":"f11edce580c94c2382b536aa3c2b609c","target":"acae3a2c72cd42f79fb4cecb74a157c1","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Rent Item,rent</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Rent Item</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>x_879255_rental_se.admin,x_879255_rental_se.student,x_879255_rental_se.co_worker</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-05 20:57:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0942c49973911101f5bb0efe153afa6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rent Item</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_cb_topic_e0942c49973911101f5bb0efe153afa6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-05 20:57:48</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=e0942c49973911101f5bb0efe153afa6"/>
+</record_update>
