@@ -39,9 +39,9 @@
 <p>A fee of ${fee}&euro; has been deducted from your account.</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
-        <message_text><![CDATA[Your rented Item: ${item.name} has expired his maximum rental date.
+        <message_text><![CDATA[Your rented Item: ${item.name} has expired his maximum rental date. <br>
 
-A fee of ${fee}€ has been deducted from your account.
+A fee of ${fee}€ has been deducted from your account. <br> <br>
 ]]></message_text>
         <name>Notify Rental Expire</name>
         <omit_watermark>false</omit_watermark>
@@ -62,7 +62,7 @@ A fee of ${fee}€ has been deducted from your account.
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>21287a6b97a111101f5bb0efe153af33</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Notify Rental Expire</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -70,9 +70,9 @@ A fee of ${fee}€ has been deducted from your account.
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sysevent_email_action_21287a6b97a111101f5bb0efe153af33</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 10:15:41</sys_updated_on>
+        <sys_updated_on>2022-09-07 13:52:07</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template/>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

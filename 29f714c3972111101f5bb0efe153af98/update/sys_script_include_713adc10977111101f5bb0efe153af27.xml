@@ -140,13 +140,17 @@ SPortalUtils.prototype = {
 		var emailsGR = new GlideRecord("sys_email");
 		emailsGR.addEncodedQuery("recipientsLIKE" + usermail + "^subjectLIKE[Rental Service]");
 		emailsGR.setLimit(15);
+		emailsGR.orderByDesc("created");
 		emailsGR.query();
 		var emails = [];
 		while(emailsGR.next()){
 			var e = {};
 			e.sys_id = emailsGR.getValue("sys_id");
 			e.subject = emailsGR.getValue("subject");
-			e.body = emailsGR.getValue("body");
+			e.from = emailsGR.getValue("sys_created_by");
+			e.body = emailsGR.getValue("body_text");
+			e.deleted = emailsGR.getValue("deleted");
+			e.created_at =emailsGR.getValue("sys_created_on");
 			emails.push(e);
 		}
 		return emails;
@@ -221,19 +225,29 @@ SPortalUtils.prototype = {
 		statGR.update();
 		
 	},
+	restoreOrDeleteNotification:function(type, emailID){
+		var emailGR = new GlideRecord("sys_email");
+		emailGR.get(emailID);
+		if(type == 0){
+			emailGR.setValue("deleted", true);
+		}else{
+			emailGR.setValue("deleted", false);
+		}
+		emailGR.update();
+	},
     type: 'SPortalUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-03 12:19:56</sys_created_on>
         <sys_id>713adc10977111101f5bb0efe153af27</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>SPortalUtils</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_include_713adc10977111101f5bb0efe153af27</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 10:24:36</sys_updated_on>
+        <sys_updated_on>2022-09-07 14:06:09</sys_updated_on>
     </sys_script_include>
 </record_update>

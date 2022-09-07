@@ -1,9 +1,336 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	c.keyword = "";
+	
+	c.filter = function(type){
+		if(type == 0){
+			c.data.filtered_notis = c.data.inbox_notis;
+		}else{
+			c.data.filtered_notis = c.data.deleted_notis;
+		}
+	}
+	c.restoreOrDelete = function(type, email_id){
+		c.data.action = "deleteOrRestore";
+		c.data.actiontype = type;
+		c.data.email_id = email_id;
+		c.server.update().then(function(){
+			c.data.actiontype = "";
+			c.data.email_id = "";
+			c.server.update();
+		});
+	}
+};]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>@import url('https://fonts.googleapis.com/css?family=Nunito&amp;display=swap');
+
+*,*::before,::after {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+.main-container {
+	box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	height: 450px;
+}
+
+.account-container {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 250px;
+	padding: 25px 0;
+	// border-right: 1px solid #eeeeee;
+	box-shadow: 0 0 30px -15px rgba(0, 0, 0, 0.2);
+	z-index: 2;
+}
+
+.account-name {
+	margin: 0px 25px 0 25px;
+	font-size: 1.3em;
+}
+
+.account-email {
+	margin: 0 25px 25px 25px;
+	display: block;
+	font-size: 0.8em;
+}
+
+.create-message-btn {
+	position: relative;
+	margin: 0 25px;
+	padding: 15px;
+	border: none;
+	outline: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	cursor: pointer;
+	width: calc(100% - 50px);
+	background-color: #ffffff;
+	box-shadow: 0 5px 30px -10px rgba(#bbbbbb, 0.8);
+	border-radius: 5px;
+	transition: 300ms ease;
+	&amp;::before {
+		content: " ";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+		border-radius: 5px;
+		opacity: 0;
+		transition: 300ms ease;
+	}
+	span {
+		position: relative;
+	}
+}
+
+.create-message-btn:hover {
+	color: #ffffff;
+	box-shadow: 0 5px 30px -10px rgba(#52E5E7, 0.8);
+	transform: scale(1.05);
+	&amp;::before {
+		opacity: 1;
+	}
+}
+
+button .feather {
+	height: 1em;
+	width: auto;
+	margin-right: 5px;
+	transform: translateY(2px);
+}
+
+.folder-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 25px 0;
+}
+
+.folder-item {
+	padding: 15px 25px;
+	cursor: pointer;
+	transition: 300ms ease;
+	display: flex;
+	// background: red;
+	&amp;:not(.active):hover {
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+	&amp;.active {
+		background-image: linear-gradient( 135deg, #52E5E7 10%, #00B1AC 100%);
+		color: #ffffff;
+		box-shadow: 0 5px 30px -10px rgba(#52E5E7, 0.8);
+		transform: scale(1.03);
+		border-radius: 5px;
+	}
+	.feather {
+		height: 1em;
+		width: auto;
+		margin-right: 5px;
+		transform: translateY(2px);
+	}
+	.message-count {
+		margin-left: auto;
+	}
+}
+
+.messages-container {
+	position: relative;
+	float: left;
+	width: 885px;
+	height: 100%;
+	z-index: 1;
+	overflow-y: scroll;
+	box-shadow: 20px 0 30px -25px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #eeeeee;
+	padding: 15px;
+	outline: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+}
+
+.filter {
+	padding: 15px;
+	border-bottom: 1px solid #eeeeee;
+	cursor: pointer;
+	transition: 300ms ease;
+	.feather {
+		height: 1em;
+		width: auto;
+		margin-right: 5px;
+		transform: translateY(2px);
+	}
+	&amp;:hover {
+		background-color: rgba(0, 0, 0, 0.04)
+	}
+}
+
+.message-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.message-item {
+	position: relative;
+	padding: 15px;
+	cursor: pointer;
+	transition: 300ms ease;
+	border-bottom: 1px solid #eeeeee;
+	// &amp;:nth-child(even) {
+	// 	background-color: rgba(0, 0, 0, 0.03);
+	// }
+	.header {
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		.author {
+			margin: 0;
+			font-size: 0.9em;
+		}
+		.date {
+			font-size: 0.7em;
+		}
+	}
+	.title {
+		margin: 0;
+		font-size: 1em;
+		text-overflow: ellipsis;
+		word-break: break-word;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.text {
+		font-size: 0.9em;
+		text-overflow: ellipsis;
+		word-break: break-word;
+		white-space: nowrap;
+		overflow: hidden;
+		margin: 0;
+	}
+	&amp;.not-readed {
+		background-color: rgba(0, 0, 0, 0.08);
+	}
+	&amp;:hover {
+		background-color:rgba(0, 0, 0, 0.04);
+	}
+}
+
+.message-item.not-readed::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 3px;
+	height: 100%;
+	background-image: linear-gradient( 135deg, #52E5E7 10%, #130CB7 100%);
+}
+
+.content-container {
+	float: left;
+	width: 350px;
+	height: 100%;
+}
+
+
+/*============================================*/
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 250, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  &amp;:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &amp; &gt; div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #EEEEEE;
+  }
+  header {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+  }
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &amp;:hover {
+    color: black;
+  }
+}
+
+/* Demo Styles */
+
+
+.modal-window {
+  &amp; &gt; div {
+    border-radius: 1rem;
+  }
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.logo {
+  max-width: 150px;
+  display: block;
+}
+
+small {
+  color: gray;
+}
+
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -21,25 +348,92 @@
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
 	data.usermail = gs.getUser().getEmail();
-	
+	data.username = gs.getUserName();
 	data.notifications = new SPortalUtils().getUserNotifications(data.usermail);
+	
+	
+	data.deleted_notis = data.notifications.filter(function(item){
+		return item.deleted == 1;
+	})
+	data.inbox_notis = data.notifications.filter(function(item){
+		return item.deleted == 0;
+	})
+	
+	data.filtered_notis = data.inbox_notis;
+	
+	if(input && input.action == "deleteOrRestore"){
+		console.log(input.email_id);
+		new SPortalUtils().restoreOrDeleteNotification(input.actiontype, input.email_id);
+	}
 })();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 09:11:10</sys_created_on>
         <sys_id>b40698ad977111101f5bb0efe153af41</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>121</sys_mod_count>
         <sys_name>Notifications</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sp_widget_b40698ad977111101f5bb0efe153af41</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 10:23:54</sys_updated_on>
-        <template><![CDATA[<div>
-<!-- your widget template -->
-{{data.notifications.length}}
-</div>]]></template>
+        <sys_updated_on>2022-09-07 14:17:35</sys_updated_on>
+        <template><![CDATA[<div class="main-container">
+    <div class="account-container">
+        <h2 class="account-name">{{c.data.username}}</h2><span class="account-email">{{c.data.usermail}}</span>
+        <ul class="folder-list">
+            <li class="folder-item active" id="inbox" ng-click="c.filter(0)"> <i data-feather="inbox"></i><span>Inbox</span><span class="message-count">{{data.inbox_notis.length}}</span></li>
+            <li class="folder-item" id="deleted" ng-click="c.filter(1)" ><i data-feather="trash"></i><span>Deleted</span><span class="message-count">{{data.deleted_notis.length}}</span></li>
+        </ul>
+    </div>
+    <div class="messages-container"><input class="search-input" type="text" ng-model="c.keyword" placeholder="Search for messages..." />
+      <a href="{{'#' + noti.sys_id}}" style=" outline: none; color: inherit;">
+      <ul class="message-list">
+            <li class="message-item" ng-repeat="noti in c.data.filtered_notis | filter:c.keyword">
+                <div class="header">
+                    <h3 class="author">{{noti.from}}</h3><span class="date">{{noti.created_at}}</span>
+                </div>
+                <h2 class="title">{{noti.subject}}</h2>
+                <p class="text" ng-bind-html="noti.body"></p>
+              <!-- modal-->
+              <div id="{{noti.sys_id}}" class="modal-window">
+                <div>
+                  <a href="#" title="Close" class="modal-close">Close</a>
+                  <h1>{{noti.subject}}</h1>
+                   <div> <small>{{noti.from}}, {{noti.created_at}}</small></div> <br>
+                  <div ng-bind-html="noti.body"></div>
+                 
+                  <br>
+                  <button class="btn btn-danger" ng-if="noti.deleted==0" ng-click="c.restoreOrDelete(0, noti.sys_id)">
+                    Delete
+                  </button>
+                  <button class="btn btn-primary" ng-if="noti.deleted==1" ng-click="c.restoreOrDelete(1, noti.sys_id)">
+                    restore
+                  </button>
+                </div>
+              </div>
+              
+              
+            </li>
+        </ul>
+      </a>
+    </div>
+</div>
+  
+
+
+<script type="application/javascript">
+	document.getElementById("inbox").addEventListener("click", function(e){
+    e.target.classList.add("active");
+    document.getElementById("deleted").classList.remove("active");
+  });
+  
+  document.getElementById("deleted").addEventListener("click", function(e){
+    e.target.classList.add("active");
+    document.getElementById("inbox").classList.remove("active");
+  });
+</script>
+]]></template>
     </sp_widget>
 </record_update>
