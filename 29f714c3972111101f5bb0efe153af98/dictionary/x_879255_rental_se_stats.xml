@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Stats" max_length="40" name="x_879255_rental_se_stats" sizeclass="1" type="collection">
+    <element label="Stats" max_length="40" name="x_879255_rental_se_stats" sizeclass="3" type="collection">
+        <element choice="1" label="Approval State" max_length="40" name="approval_state" type="choice">
+            <choice/>
+        </element>
         <element label="Num items placed" max_length="40" name="num_items_placed" type="integer"/>
         <element label="Num items rented" max_length="40" name="num_items_rented" type="integer"/>
         <element label="Total balance" max_length="40" name="total_balance" type="float"/>

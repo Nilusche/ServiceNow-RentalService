@@ -7,7 +7,7 @@
         <active>true</active>
         <content><![CDATA[Select the Item you want to rent.
 Have a look at the bottom to see which Items are already rented]]></content>
-        <guide display_value="Functionalities of MEBNY-D Rental Service">ec15940997f511101f5bb0efe153af92</guide>
+        <guide/>
         <implicit>false</implicit>
         <link/>
         <name/>
@@ -22,7 +22,7 @@ Have a look at the bottom to see which Items are already rented]]></content>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a276dc4997f511101f5bb0efe153af8b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -30,7 +30,7 @@ Have a look at the bottom to see which Items are already rented]]></content>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_embedded_tour_step_a276dc4997f511101f5bb0efe153af8b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 19:56:14</sys_updated_on>
+        <sys_updated_on>2022-09-06 12:30:46</sys_updated_on>
         <target/>
         <target_ref display_value="xpath">6676dc4997f511101f5bb0efe153af89</target_ref>
         <title/>

@@ -106,16 +106,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-05 18:04:00</sys_created_on>
         <sys_id>a6ccb7bc977511101f5bb0efe153af4d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Average prices</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Item Categories</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_report_a6ccb7bc977511101f5bb0efe153af4d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 18:04:00</sys_updated_on>
+        <sys_updated_on>2022-09-07 07:45:54</sys_updated_on>
         <table>x_879255_rental_se_items</table>
-        <title>Average prices</title>
+        <title>Item Categories</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

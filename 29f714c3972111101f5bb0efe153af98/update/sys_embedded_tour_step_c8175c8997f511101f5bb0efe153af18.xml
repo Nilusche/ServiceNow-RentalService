@@ -6,7 +6,7 @@
         <action_target_ref display_value="xpath">8c175c8997f511101f5bb0efe153af16</action_target_ref>
         <active>true</active>
         <content><![CDATA[Pick an end-date]]></content>
-        <guide display_value="Functionalities of MEBNY-D Rental Service">ec15940997f511101f5bb0efe153af92</guide>
+        <guide/>
         <implicit>false</implicit>
         <link/>
         <name/>
@@ -21,7 +21,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c8175c8997f511101f5bb0efe153af18</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -29,7 +29,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_embedded_tour_step_c8175c8997f511101f5bb0efe153af18</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 19:58:47</sys_updated_on>
+        <sys_updated_on>2022-09-06 12:30:46</sys_updated_on>
         <target/>
         <target_ref display_value="xpath">8c175c8997f511101f5bb0efe153af16</target_ref>
         <title/>

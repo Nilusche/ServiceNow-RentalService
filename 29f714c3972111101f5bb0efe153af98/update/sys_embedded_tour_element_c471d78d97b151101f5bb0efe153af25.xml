@@ -15,7 +15,7 @@
         <frameset>nav_filter</frameset>
         <list_element>ui_action</list_element>
         <list_header/>
-        <manual_css>[href="?id=rs_rent_items"]</manual_css>
+        <manual_css>.m-b</manual_css>
         <name>xpath</name>
         <record_id/>
         <related_field/>
@@ -26,19 +26,19 @@
         <row/>
         <sys_class_name>sys_embedded_tour_element</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-05 19:53:24</sys_created_on>
+        <sys_created_on>2022-09-06 09:33:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9dd5540997f511101f5bb0efe153af2d</sys_id>
+        <sys_id>c471d78d97b151101f5bb0efe153af25</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>xpath</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_update_name>sys_embedded_tour_element_9dd5540997f511101f5bb0efe153af2d</sys_update_name>
+        <sys_update_name>sys_embedded_tour_element_c471d78d97b151101f5bb0efe153af25</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 19:53:24</sys_updated_on>
+        <sys_updated_on>2022-09-06 09:33:04</sys_updated_on>
         <table/>
         <type>manual_css</type>
         <ui_action/>

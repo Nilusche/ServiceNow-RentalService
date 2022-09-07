@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="DELETE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>rs?id=rs_index&amp;gtd_portal_title=MEBNY-D Rental Service&amp;gtd_page_title=index</context>
+        <description/>
+        <has_concl>false</has_concl>
+        <has_intro>true</has_intro>
+        <name>Functionalities of MEBNY-D Rental Service</name>
+        <options/>
+        <roles/>
+        <sp_page display_value="rs_index">a65213f097f111101f5bb0efe153afa5</sp_page>
+        <sp_portal display_value="MEBNY-D Rental Service">02ae8854973111101f5bb0efe153af6b</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-05 19:50:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec15940997f511101f5bb0efe153af92</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Functionalities of MEBNY-D Rental Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_ec15940997f511101f5bb0efe153af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 12:31:22</sys_updated_on>
+        <tour_id>TOUR0000007</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_embedded_tour_guide_ec15940997f511101f5bb0efe153af92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide"><sys_embedded_tour_guide action="INSERT_OR_UPDATE"><active>true</active><additional_parameters/><autolaunch_order>0</autolaunch_order><context>rs?id=rs_index&amp;gtd_portal_title=MEBNY-D Rental Service&amp;gtd_page_title=index</context><description/><has_concl>false</has_concl><has_intro>true</has_intro><name>Functionalities of MEBNY-D Rental Service</name><options/><roles/><sp_page display_value="rs_index">a65213f097f111101f5bb0efe153afa5</sp_page><sp_portal display_value="MEBNY-D Rental Service">02ae8854973111101f5bb0efe153af6b</sp_portal><status>published</status><sys_class_name>sys_embedded_tour_guide</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-05 19:50:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ec15940997f511101f5bb0efe153af92</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Functionalities of MEBNY-D Rental Service</sys_name><sys_overrides/><sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package><sys_policy/><sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope><sys_update_name>sys_embedded_tour_guide_ec15940997f511101f5bb0efe153af92</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-06 12:31:22</sys_updated_on><tour_id>TOUR0000007</tour_id><type>service_portal</type></sys_embedded_tour_guide></record_update>]]></payload>
+        <payload_hash>371429679</payload_hash>
+        <record_name>Functionalities of MEBNY-D Rental Service</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 12:31:22</sys_created_on>
+        <sys_id>373aff05977551101f5bb0efe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18312c8a3470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 12:31:22</sys_updated_on>
+        <type>Guided Tour</type>
+        <update_guid>7f3aff05e27551107e514519a3f91736</update_guid>
+        <update_guid_history>7f3aff05e27551107e514519a3f91736:371429679,50451c493ff51110b4cc1a08c432f284:58904496,64159409d1f51110762f7a9a310f8296:-1870820039</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-06 12:31:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_guide">sys_embedded_tour_guide</sys_db_object>
+        <sys_id>14702e2b9fc5458f8ca585cad05489b9</sys_id>
+        <sys_metadata>ec15940997f511101f5bb0efe153af92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Functionalities of MEBNY-D Rental Service</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_guide_ec15940997f511101f5bb0efe153af92</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_guide_ec15940997f511101f5bb0efe153af92">373aff05977551101f5bb0efe153af37</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-06 12:31:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

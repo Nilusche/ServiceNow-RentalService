@@ -41,12 +41,9 @@
 		current.setValue("verified", false);
 		current.setValue("num_items_placed", 0);
 		current.setValue("num_items_rented", 0);
+		current.setValue("user", current.user);
 	}else{
-		stat.next();
-		stat.setValue("u_apply_message",current.u_apply_message);
-		stat.setValue("u_credentials",current.u_credentials);
-		stat.update();
-		gs.info("user alread exists");
+		gs.info("user already exists");
 		current.setAbortAction(true);
 	}
 	
@@ -58,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>32ec751f97a111101f5bb0efe153af52</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Stat Initiation [before]</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -66,7 +63,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_32ec751f97a111101f5bb0efe153af52</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-04 18:07:53</sys_updated_on>
+        <sys_updated_on>2022-09-07 08:36:10</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
