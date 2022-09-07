@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[Welcome to the tour ....]]></content>
+        <guide display_value="Test tour">9c0935a9973911101f5bb0efe153af92</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Introduction</name>
+        <options/>
+        <order>0</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>intro</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 16:24:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a1935a9973911101f5bb0efe153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Introduction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_6a1935a9973911101f5bb0efe153af70</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 16:24:06</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title><![CDATA[Hallo]]></title>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window/>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="DELETE" query="documentkey=6a1935a9973911101f5bb0efe153af70"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_embedded_tour_step_6a1935a9973911101f5bb0efe153af70</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;true&lt;/action&gt;&lt;action_event&gt;click&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref/&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Welcome to the tour ....]]&gt;&lt;/content&gt;&lt;guide display_value="Test tour"&gt;9c0935a9973911101f5bb0efe153af92&lt;/guide&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name&gt;Introduction&lt;/name&gt;&lt;options/&gt;&lt;order&gt;0&lt;/order&gt;&lt;placement&gt;bottom&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;intro&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-07 16:24:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6a1935a9973911101f5bb0efe153af70&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Introduction&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rental Service" source="x_879255_rental_se"&gt;29f714c3972111101f5bb0efe153af98&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Service"&gt;29f714c3972111101f5bb0efe153af98&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_6a1935a9973911101f5bb0efe153af70&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-07 16:24:06&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref/&gt;&lt;title&gt;&lt;![CDATA[Hallo]]&gt;&lt;/title&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window/&gt;&lt;/sys_embedded_tour_step&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6a1935a9973911101f5bb0efe153af70"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-910352952</payload_hash>
+        <record_name>Introduction</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 16:24:06</sys_created_on>
+        <sys_id>6a1935a9973911101f5bb0efe153af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18318c413350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 16:24:06</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>a21935a939391110a54205d05e533f76</update_guid>
+        <update_guid_history>a21935a939391110a54205d05e533f76:-910352952</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 16:25:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>53e2cfd6d3164b728d3386ae2101d2a9</sys_id>
+        <sys_metadata>6a1935a9973911101f5bb0efe153af70</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Introduction</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_6a1935a9973911101f5bb0efe153af70</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_6a1935a9973911101f5bb0efe153af70">6a1935a9973911101f5bb0efe153af76</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 16:25:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

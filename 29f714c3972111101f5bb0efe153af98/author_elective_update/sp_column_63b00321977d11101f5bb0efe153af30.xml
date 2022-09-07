@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">e3b00321977d11101f5bb0efe153af2c</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 21:37:06</sys_created_on>
+        <sys_id>63b00321977d11101f5bb0efe153af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sp_column_63b00321977d11101f5bb0efe153af30</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 21:37:06</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_column_63b00321977d11101f5bb0efe153af30</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">e3b00321977d11101f5bb0efe153af2c</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-07 21:37:06</sys_created_on><sys_id>63b00321977d11101f5bb0efe153af30</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package><sys_policy/><sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope><sys_update_name>sp_column_63b00321977d11101f5bb0efe153af30</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-07 21:37:06</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1505429670</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 21:37:06</sys_created_on>
+        <sys_id>6bb00321977d11101f5bb0efe153af31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18319e2a1d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 21:37:06</sys_updated_on>
+        <type>Column</type>
+        <update_guid>a3b00321e17d1110bcefe46a2f765731</update_guid>
+        <update_guid_history>a3b00321e17d1110bcefe46a2f765731:1505429670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">4ec04f21977d11101f5bb0efe153af52</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 21:37:16</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>219f3a71a44d4b308ab322891c326100</sys_id>
+        <sys_metadata>63b00321977d11101f5bb0efe153af30</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sp_column_63b00321977d11101f5bb0efe153af30</sys_update_name>
+        <sys_update_version display_value="sp_column_63b00321977d11101f5bb0efe153af30">6bb00321977d11101f5bb0efe153af31</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 21:37:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

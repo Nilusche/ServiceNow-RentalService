@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>rs_rental_request_approval</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 21:36:41</sys_created_on>
+        <sys_id>a9a0cb21977d11101f5bb0efe153af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rs_rental_request_approval</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sp_page_a9a0cb21977d11101f5bb0efe153af5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 21:36:41</sys_updated_on>
+        <title>Rental Request Approval</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9a0cb21977d11101f5bb0efe153af5f"/>
+</record_update>
