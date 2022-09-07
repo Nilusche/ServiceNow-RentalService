@@ -8,7 +8,7 @@
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_879255_rental_se_stats</collection>
         <condition/>
-        <content_type>text/html</content_type>
+        <content_type>text/plain</content_type>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -35,10 +35,11 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello&nbsp; ${user},</p>
-<p>You have been accepted to join the community as&nbsp; ${verified_role}.</p>]]></message_html>
+        <message_html/>
         <message_list/>
-        <message_text/>
+        <message_text><![CDATA[Hello ${user},
+
+You have been accepted to join the community as ${verified_role}.]]></message_text>
         <name>Notify Approval approved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
@@ -58,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3668d2e7972111101f5bb0efe153af2f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Notify Approval approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -66,7 +67,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sysevent_email_action_3668d2e7972111101f5bb0efe153af2f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-01 14:10:04</sys_updated_on>
+        <sys_updated_on>2022-09-07 10:02:42</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
