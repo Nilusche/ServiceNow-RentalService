@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>state,approver,sys_created_on,due_date</field_list>
+        <filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=requested^ORstate=approved^ORstate=rejected<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="approved"/>
+            <item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="rejected"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>sys_created_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ab5548e9973111101f5bb0efe153af8d</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 07:58:56</sys_created_on>
+        <sys_id>267508e9973111101f5bb0efe153af5a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Pending Approvals</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sp_instance_table_267508e9973111101f5bb0efe153af5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 08:42:13</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <title>Pending Approvals</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=267508e9973111101f5bb0efe153af5a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sp_instance_table_267508e9973111101f5bb0efe153af5a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>state,approver,sys_created_on,due_date</field_list><filter table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=requested^ORstate=approved^ORstate=rejected<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item display_value="Requested" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="requested"/><item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="approved"/><item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="rejected"/></filter><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by>sys_created_on</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">ab5548e9973111101f5bb0efe153af8d</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-07 07:58:56</sys_created_on><sys_id>267508e9973111101f5bb0efe153af5a</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Pending Approvals</sys_name><sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package><sys_policy/><sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope><sys_update_name>sp_instance_table_267508e9973111101f5bb0efe153af5a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-07 08:42:13</sys_updated_on><table>sysapproval_approver</table><title>Pending Approvals</title><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=267508e9973111101f5bb0efe153af5a"/></record_update>]]></payload>
+        <payload_hash>2015036811</payload_hash>
+        <record_name>Pending Approvals</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 08:42:13</sys_created_on>
+        <sys_id>3c6fc429977111101f5bb0efe153afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183171d34d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 08:42:13</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>346fc42907711110e5bb5770cc8653b4</update_guid>
+        <update_guid_history>346fc42907711110e5bb5770cc8653b4:2015036811,ca2f04296d711110fbbc07ff53df3f96:1056589637,351f8ce54a7111109489cd60d8a7bb7e:-552379424,bffe84e51e71111012eea220be826e2d:-317896118,0256c4e987311110794b6585191e71bb:-749454152,e406882d59311110f3a1fbfad8ae8f06:-252628825,6e7508e9d4311110a3ffa1aecae96c5b:2054262023</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Pending Approvals">bd4453a597bd11101f5bb0efe153afeb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 23:02:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>3975523239a7472b9738979588a4ce01</sys_id>
+        <sys_metadata>267508e9973111101f5bb0efe153af5a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pending Approvals</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sp_instance_table_267508e9973111101f5bb0efe153af5a</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_267508e9973111101f5bb0efe153af5a">3c6fc429977111101f5bb0efe153afb4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-07 23:02:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

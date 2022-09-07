@@ -137,7 +137,7 @@ button .feather {
 		background-color: rgba(0, 0, 0, 0.05);
 	}
 	&amp;.active {
-		background-image: linear-gradient( 135deg, #FF4A4A 10%, #FF9551 100%);
+		background-image: linear-gradient( 135deg, #3B9AE1 10%, #21E1E1 100%);
 		color: #ffffff;
 		box-shadow: 0 5px 30px -10px rgba(#52E5E7, 0.8);
 		transform: scale(1.03);
@@ -339,10 +339,10 @@ small {
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>rental_approval</id>
+        <id>user_approval</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
-        <name>Rental Approval</name>
+        <name>User Approval</name>
         <option_schema/>
         <public>false</public>
         <roles/>
@@ -352,7 +352,7 @@ small {
 	data.usermail = gs.getUser().getEmail();
 	data.username = gs.getUserName();
 	
-	data.approvals = new SPortalUtils().getUserApprovals();
+	data.approvals = new SPortalUtils().getStatApprovals();
 	
 	
 	data.approved_approvals = data.approvals.filter(function(approval){
@@ -375,16 +375,16 @@ small {
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 21:44:28</sys_created_on>
-        <sys_id>e7628b61977d11101f5bb0efe153afda</sys_id>
-        <sys_mod_count>45</sys_mod_count>
-        <sys_name>Rental Approval</sys_name>
+        <sys_created_on>2022-09-07 22:42:26</sys_created_on>
+        <sys_id>68bf8f2197bd11101f5bb0efe153afee</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>User Approval</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_update_name>sp_widget_e7628b61977d11101f5bb0efe153afda</sys_update_name>
+        <sys_update_name>sp_widget_68bf8f2197bd11101f5bb0efe153afee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 23:06:31</sys_updated_on>
+        <sys_updated_on>2022-09-07 23:06:04</sys_updated_on>
         <template><![CDATA[<div class="main-container" style="margin-top:5rem;">
     <div class="account-container">
         <h2 class="account-name">{{c.data.username}}</h2><span class="account-email">{{c.data.usermail}}</span>
@@ -399,17 +399,23 @@ small {
       <ul class="message-list">
             <li class="message-item" ng-repeat="approval in c.data.filtered_approvals | filter:c.keyword">
                 <div class="header">
-                    <h3 class="author">{{approval.rentee}}</h3><span class="date">{{noti.created_at}}</span>
+                    <h3 class="author">{{approval.user}}</h3><span class="date">{{approval.created_at}}</span>
                 </div>
-                <h2 class="title">Request to Rent: {{approval.item}} ({{approval.state}})</h2>
+                <h2 class="title">Request for Role Elevatation: {{approval.role}} ({{approval.state}})</h2>
                 <p class="text" ng-bind-html="noti.body"></p>
               <!-- modal-->
               <div id="{{approval.sys_id}}" class="modal-window">
                 <div>
                   <a href="#" title="Close" class="modal-close">Close</a>
-                  <h1>Request To Rent: {{approval.item}} ({{approval.state}})</h1>
-                   <div> <small>{{approval.price}}€, requested by {{approval.rentee}}</small></div>
-                  <div> <small>{{approval.from}} - {{approval.to}}</small></div> <br>
+                  
+                  <h1>Request for Role Elevatation: {{approval.role}} ({{approval.state}})</h1>
+                  <div ng-if="approval.credentials!=''"> <small>{{approval.credentials}}, {{approval.user}}</small></div>
+                  <div ng-if="!approval.credentials">
+                    Stat Record deleted
+                  </div>
+                  <div>
+                    <small>{{approval.message}}</small>
+                  </div>
                   <div ng-bind-html="noti.body"></div>
                  
                   <br>
