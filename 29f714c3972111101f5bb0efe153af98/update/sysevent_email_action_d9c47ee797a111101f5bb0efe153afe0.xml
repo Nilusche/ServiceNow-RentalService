@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Rentals" name="Rentals">c5e2a0a597f111101f5bb0efe153af0e</category>
         <collection>x_879255_rental_se_rental</collection>
         <condition/>
         <content_type>text/plain</content_type>
@@ -40,7 +40,7 @@
 <p>Date from: ${time_from}</p>
 <p>Date to: ${time_to}</p>]]></message_html>
         <message_list/>
-        <message_text><![CDATA[Pls return your rented Item soon
+        <message_text><![CDATA[Please return your rented Item soon
 
 Item: ${item}
 Date from: ${time_from}
@@ -56,7 +56,7 @@ Date to: ${time_to}]]></message_text>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Reminder  for rented Item</subject>
+        <subject>[Rental Service] Reminder for rented Item</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -64,7 +64,7 @@ Date to: ${time_to}]]></message_text>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9c47ee797a111101f5bb0efe153afe0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Notify Rental Reminder</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -72,7 +72,7 @@ Date to: ${time_to}]]></message_text>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sysevent_email_action_d9c47ee797a111101f5bb0efe153afe0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 10:04:16</sys_updated_on>
+        <sys_updated_on>2022-09-07 10:13:48</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

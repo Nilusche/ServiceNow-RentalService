@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Rentals" name="Rentals">c5e2a0a597f111101f5bb0efe153af0e</category>
         <collection>x_879255_rental_se_stats</collection>
         <condition/>
         <content_type>text/plain</content_type>
@@ -51,7 +51,7 @@ Your Approval for Registration has been denied.]]></message_text>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Approval for  role elevation has been denied</subject>
+        <subject>[Rental Service] Approval for  role elevation has been denied</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -59,7 +59,7 @@ Your Approval for Registration has been denied.]]></message_text>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb6796e7972111101f5bb0efe153af57</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Notify Approval denied</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -67,7 +67,7 @@ Your Approval for Registration has been denied.]]></message_text>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sysevent_email_action_fb6796e7972111101f5bb0efe153af57</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 10:02:58</sys_updated_on>
+        <sys_updated_on>2022-09-07 10:15:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
