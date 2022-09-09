@@ -243,6 +243,10 @@ SPortalUtils.prototype = {
 			//Update Rental state to closed
 			rentalGR.setValue("rental_state", 2); //closed
 			rentalGR.update();
+			
+			//Notify Renter and Rentee
+			gs.eventQueue('x_879255_rental_se.RentalReturn', rentalGR, rentalGR.renter.sys_id);
+			
 		}
 	},
 	deleteItems:function(items){
@@ -289,13 +293,13 @@ SPortalUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-03 12:19:56</sys_created_on>
         <sys_id>713adc10977111101f5bb0efe153af27</sys_id>
-        <sys_mod_count>92</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name>SPortalUtils</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_include_713adc10977111101f5bb0efe153af27</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 07:37:07</sys_updated_on>
+        <sys_updated_on>2022-09-09 07:43:07</sys_updated_on>
     </sys_script_include>
 </record_update>

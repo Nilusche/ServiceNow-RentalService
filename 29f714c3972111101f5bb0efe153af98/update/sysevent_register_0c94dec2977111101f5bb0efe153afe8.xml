@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>This event is fired when an Item gets returned</description>
+        <event_name>x_879255_rental_se.RentalReturn</event_name>
+        <fired_by>Script Include - Notify returned Item</fired_by>
+        <queue/>
+        <suffix>RentalReturn</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 07:42:15</sys_created_on>
+        <sys_id>0c94dec2977111101f5bb0efe153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_879255_rental_se.RentalReturn</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sysevent_register_0c94dec2977111101f5bb0efe153afe8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 07:42:15</sys_updated_on>
+        <table>x_879255_rental_se_rental</table>
+    </sysevent_register>
+</record_update>
