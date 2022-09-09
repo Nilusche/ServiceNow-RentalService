@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>change</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">b567681e977911101f5bb0efe153afea</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select a Start date.
+The Start date can not be in the past and will be validated]]></content>
+        <guide display_value="How to rent Items">65466c9a977911101f5bb0efe153afd8</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/rs?id=rs_rent_items"}</options>
+        <order>4</order>
+        <placement>right</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 18:22:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b167681e977911101f5bb0efe153afec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_b167681e977911101f5bb0efe153afec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 18:22:35</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">b567681e977911101f5bb0efe153afea</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>rs</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=b167681e977911101f5bb0efe153afec"/>
+</record_update>

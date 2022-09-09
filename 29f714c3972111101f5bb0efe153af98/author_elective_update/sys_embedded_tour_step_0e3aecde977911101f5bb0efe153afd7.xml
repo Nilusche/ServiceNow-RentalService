@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="DELETE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">c23a64de977911101f5bb0efe153aff9</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select the Item you want to return]]></content>
+        <guide display_value="How to return rented Items">68896c9e977911101f5bb0efe153af76</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/rs?id=rs_return_items"}</options>
+        <order>3</order>
+        <placement>left</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 18:34:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e3aecde977911101f5bb0efe153afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_0e3aecde977911101f5bb0efe153afd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 18:34:53</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">c23a64de977911101f5bb0efe153aff9</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>rs</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="DELETE" query="documentkey=0e3aecde977911101f5bb0efe153afd7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_embedded_tour_step_0e3aecde977911101f5bb0efe153afd7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_embedded_tour_step"&gt;&lt;sys_embedded_tour_step action="INSERT_OR_UPDATE"&gt;&lt;action&gt;false&lt;/action&gt;&lt;action_event&gt;next&lt;/action_event&gt;&lt;action_target/&gt;&lt;action_target_ref display_value="xpath"&gt;c23a64de977911101f5bb0efe153aff9&lt;/action_target_ref&gt;&lt;active&gt;true&lt;/active&gt;&lt;content&gt;&lt;![CDATA[Select the Item you want to return]]&gt;&lt;/content&gt;&lt;guide display_value="How to return rented Items"&gt;68896c9e977911101f5bb0efe153af76&lt;/guide&gt;&lt;implicit&gt;false&lt;/implicit&gt;&lt;link/&gt;&lt;name/&gt;&lt;options&gt;{"url":"/rs?id=rs_return_items"}&lt;/options&gt;&lt;order&gt;3&lt;/order&gt;&lt;placement&gt;left&lt;/placement&gt;&lt;skippable&gt;false&lt;/skippable&gt;&lt;step_type&gt;step&lt;/step_type&gt;&lt;sys_class_name&gt;sys_embedded_tour_step&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-09 18:34:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0e3aecde977911101f5bb0efe153afd7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Rental Service" source="x_879255_rental_se"&gt;29f714c3972111101f5bb0efe153af98&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Rental Service"&gt;29f714c3972111101f5bb0efe153af98&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_embedded_tour_step_0e3aecde977911101f5bb0efe153afd7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-09 18:34:53&lt;/sys_updated_on&gt;&lt;target/&gt;&lt;target_ref display_value="xpath"&gt;c23a64de977911101f5bb0efe153aff9&lt;/target_ref&gt;&lt;title/&gt;&lt;ui_version&gt;dynamic&lt;/ui_version&gt;&lt;view/&gt;&lt;window&gt;rs&lt;/window&gt;&lt;/sys_embedded_tour_step&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=0e3aecde977911101f5bb0efe153afd7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-650846622</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 18:34:53</sys_created_on>
+        <sys_id>0a3aecde977911101f5bb0efe153afd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1832388884a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 18:34:53</sys_updated_on>
+        <type>Guided Tour Step</type>
+        <update_guid>423aecdefe79111036159b9fc641efd9</update_guid>
+        <update_guid_history>423aecdefe79111036159b9fc641efd9:-650846622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 18:35:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_step">sys_embedded_tour_step</sys_db_object>
+        <sys_id>1f476e44feb14a18a281fd734de8de90</sys_id>
+        <sys_metadata>0e3aecde977911101f5bb0efe153afd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_step_0e3aecde977911101f5bb0efe153afd7</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_step_0e3aecde977911101f5bb0efe153afd7">0a3aecde977911101f5bb0efe153afd9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 18:35:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -8,7 +8,7 @@
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_879255_rental_se_rental</collection>
         <condition/>
-        <content_type>text/html</content_type>
+        <content_type>text/plain</content_type>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -35,21 +35,21 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Request to rent Item Name: ${item.name} is denied by Renter</p>]]></message_html>
+        <message_html/>
         <message_list/>
-        <message_text/>
+        <message_text><![CDATA[Request to rent Item Name: ${item.name} is denied by Renter]]></message_text>
         <name>Notify Rental Request Denied</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>renter</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>Rental Request denied</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -57,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1e104fed973d11101f5bb0efe153af27</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Notify Rental Request Denied</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sysevent_email_action_1e104fed973d11101f5bb0efe153af27</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:35:17</sys_updated_on>
+        <sys_updated_on>2022-09-09 18:31:07</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
