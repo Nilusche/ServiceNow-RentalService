@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>price_per_unit</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 07:17:02</sys_created_on>
+        <sys_id>120fce0e973111101f5bb0efe153af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>price_per_unit</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_ui_policy_action_120fce0e973111101f5bb0efe153af9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 07:17:02</sys_updated_on>
+        <table>x_879255_rental_se_items</table>
+        <ui_policy display_value="Puts Item fields on readonly if any other user than the owner is viewing the form">eb6dc2ca973111101f5bb0efe153afd1</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rental Service">29f714c3972111101f5bb0efe153af98</application>
+        <file_path/>
+        <instance_id>780171b2db681bc01ddcf22ebf96193a</instance_id>
+        <instance_name>dev51408</instance_name>
+        <name>sys_ui_policy_action_120fce0e973111101f5bb0efe153af9a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>price_per_unit</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-09 07:17:02</sys_created_on><sys_id>120fce0e973111101f5bb0efe153af9a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>price_per_unit</sys_name><sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package><sys_policy/><sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope><sys_update_name>sys_ui_policy_action_120fce0e973111101f5bb0efe153af9a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-09 07:17:02</sys_updated_on><table>x_879255_rental_se_items</table><ui_policy display_value="Puts Item fields on readonly if any other user than the owner is viewing the form">eb6dc2ca973111101f5bb0efe153afd1</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1666146583</payload_hash>
+        <record_name>price_per_unit</record_name>
+        <reverted_from/>
+        <source>2319104f972111101f5bb0efe153af65</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 07:17:02</sys_created_on>
+        <sys_id>ac1f4e0e973111101f5bb0efe153af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183211bef280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 07:17:02</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>e41f4e0ed731111052a9489a8bf1e00a</update_guid>
+        <update_guid_history>e41f4e0ed731111052a9489a8bf1e00a:-1666146583</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 07:17:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>a74a11447c1e4d0c92024805d7047644</sys_id>
+        <sys_metadata>120fce0e973111101f5bb0efe153af9a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>price_per_unit</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_parent display_value="Puts Item fields on readonly if any other user than the owner is viewing the form">eb6dc2ca973111101f5bb0efe153afd1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_scope_delete display_value="">5831bca21cdb40469f628d4f4a21c6b1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_120fce0e973111101f5bb0efe153af9a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_120fce0e973111101f5bb0efe153af9a">ac1f4e0e973111101f5bb0efe153af0a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 07:17:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
