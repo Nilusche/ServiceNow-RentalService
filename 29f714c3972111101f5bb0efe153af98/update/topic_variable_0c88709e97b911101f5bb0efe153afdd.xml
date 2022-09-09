@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="item" table="x_879255_rental_se_rental">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="topic_variable">
+    <topic_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Item</column_label>
+        <column_label>User</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,48 +22,56 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>item</element>
+        <element>user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
+        <help/>
+        <hint/>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
+        <label>User</label>
+        <limit/>
+        <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <name>x_879255_rental_se_rental</name>
+        <model display_value="Return Items">4888709e97b911101f5bb0efe153afdc</model>
+        <model_id>4888709e97b911101f5bb0efe153afdc</model_id>
+        <model_table/>
+        <name>var__m_topic_variable_4888709e97b911101f5bb0efe153afdc</name>
         <next_element/>
+        <order>100</order>
         <primary>false</primary>
+        <query_parameters/>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_879255_rental_se_items">x_879255_rental_se_items</reference>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual>rented=false^EQ</reference_qual>
-        <reference_qual_condition table="x_879255_rental_se_items">rented=false^EQ<item endquery="false" field="rented" goto="false" newquery="false" operator="=" or="false" value="false"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_class_name>topic_variable</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-08-30 16:42:49</sys_created_on>
-        <sys_id>fc13f0c797a111101f5bb0efe153af48</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Item</sys_name>
+        <sys_created_on>2022-09-09 19:37:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0c88709e97b911101f5bb0efe153afdd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_update_name>sys_dictionary_x_879255_rental_se_rental_item</sys_update_name>
+        <sys_update_name>topic_variable_0c88709e97b911101f5bb0efe153afdd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 19:55:31</sys_updated_on>
+        <sys_updated_on>2022-09-09 19:37:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -74,5 +82,6 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_dictionary>
+    </topic_variable>
+    <sys_element_mapping action="delete_multiple" query="id=0c88709e97b911101f5bb0efe153afdd"/>
 </record_update>

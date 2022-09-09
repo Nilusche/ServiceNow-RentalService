@@ -9,7 +9,488 @@
         <description>Topic allows users to rent an Item</description>
         <expose_on_palette>false</expose_on_palette>
         <flexible_conversation_switching>false</flexible_conversation_switching>
-        <graph>{"graph_api_version":"1.0.39","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"f11edce580c94c2382b536aa3c2b609c":{"id":"f11edce580c94c2382b536aa3c2b609c","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"acae3a2c72cd42f79fb4cecb74a157c1":{"id":"acae3a2c72cd42f79fb4cecb74a157c1","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"eba505593acb4d3082b503e4100ae8cc","edgeType":"Edge","source":"f11edce580c94c2382b536aa3c2b609c","target":"acae3a2c72cd42f79fb4cecb74a157c1","sourcePort":"","targetPort":""}]}}}</graph>
+        <graph>{
+  "graph_api_version": "1.0.39",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "f11edce580c94c2382b536aa3c2b609c": {
+          "id": "f11edce580c94c2382b536aa3c2b609c",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "acae3a2c72cd42f79fb4cecb74a157c1": {
+          "id": "acae3a2c72cd42f79fb4cecb74a157c1",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "0f31e5a64e5143c1b62738cac805c662": {
+          "id": "0f31e5a64e5143c1b62738cac805c662",
+          "stepType": "TextOutput",
+          "name": "Greeting",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the Item you would like to rent"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "7c9eaf327d8640cba45ddb2e2f4cb110": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Select Item Record",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the Item you would like to rent"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "e725dfeada3d41d1a619529471780a20",
+          "id": "7c9eaf327d8640cba45ddb2e2f4cb110",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "There are no records currently to rent"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "rented!=true"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "1a5642e775f04aa0852326b719acadec": {
+          "id": "1a5642e775f04aa0852326b719acadec",
+          "stepType": "TextOutput",
+          "name": "Selected Item",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "You have selected: "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.select_item_record.name}}",
+                      "displayValue": "Input Variables➛Select Item Record➛Name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "1f4b1e1323c740c495cc1056cd5cf737": {
+          "id": "1f4b1e1323c740c495cc1056cd5cf737",
+          "stepType": "Prompt",
+          "name": "Choose a Start date",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose a Start date to rent this Item"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "29d20b532384423b960ad7a7e34cc87b"
+        },
+        "42bc186682234b21a3e5fec7919428bd": {
+          "id": "42bc186682234b21a3e5fec7919428bd",
+          "stepType": "Prompt",
+          "name": "Choose a End date",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Choose a End date to rent this Item"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "7678a3a4438b4681870d74482ce27d63"
+        },
+        "07157334d1ca413788c59bef9cfce021": {
+          "id": "07157334d1ca413788c59bef9cfce021",
+          "stepType": "CrudAction",
+          "name": "Create Rental Request",
+          "template": "item={{vaInputs.select_item_record}}^total_price={{vaInputs.select_item_record.price_per_unit}}^renter={{vaInputs.user}}^time_from={{vaInputs.choose_a_start_date}}^time_to={{vaInputs.choose_a_end_date}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "739053dcf61f4bff9b68f405a04099a9"
+        },
+        "dd8d9a54122c4fdaad48bef29354cf82": {
+          "id": "dd8d9a54122c4fdaad48bef29354cf82",
+          "stepType": "TextOutput",
+          "name": "Rental Request created.",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your Rental request has been submitted successfully"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "e802b27e336b42b491ccc1cc3f3dbb48": {
+          "id": "e802b27e336b42b491ccc1cc3f3dbb48",
+          "stepType": "Decision",
+          "name": "Would you like to rent again?"
+        },
+        "67114c588d3d4e2ea502a1152dc9b960": {
+          "id": "67114c588d3d4e2ea502a1152dc9b960",
+          "stepType": "Prompt",
+          "name": "Rent Again",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Would you like to request Rental again?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "c7d5fa02eaf04a1e83e21240cff692c8"
+        }
+      },
+      "edges": [
+        {
+          "id": "74c135b588ec42b4b4c0f7794127de7e",
+          "edgeType": "Edge",
+          "source": "42bc186682234b21a3e5fec7919428bd",
+          "target": "07157334d1ca413788c59bef9cfce021",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "eba505593acb4d3082b503e4100ae8cc",
+          "edgeType": "Edge",
+          "source": "f11edce580c94c2382b536aa3c2b609c",
+          "target": "0f31e5a64e5143c1b62738cac805c662",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c95ae7e9160445e689f04c61624f7778",
+          "edgeType": "Edge",
+          "source": "0f31e5a64e5143c1b62738cac805c662",
+          "target": "7c9eaf327d8640cba45ddb2e2f4cb110",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9aadc386173f4023aaeb339e35f4e53f",
+          "edgeType": "Edge",
+          "source": "7c9eaf327d8640cba45ddb2e2f4cb110",
+          "target": "1a5642e775f04aa0852326b719acadec",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6fb6a17f5f6c4ad1a57c458426147550",
+          "edgeType": "Edge",
+          "source": "1a5642e775f04aa0852326b719acadec",
+          "target": "1f4b1e1323c740c495cc1056cd5cf737",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6cd7ffcbaa4144d28da7e20b3806634d",
+          "edgeType": "Edge",
+          "source": "1f4b1e1323c740c495cc1056cd5cf737",
+          "target": "42bc186682234b21a3e5fec7919428bd",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "08ce83e5540446c88166d7a2bd77face",
+          "edgeType": "Edge",
+          "source": "07157334d1ca413788c59bef9cfce021",
+          "target": "dd8d9a54122c4fdaad48bef29354cf82",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3cfeefe7b57049d0bf2c59b5ee367fec",
+          "edgeType": "Branch",
+          "source": "e802b27e336b42b491ccc1cc3f3dbb48",
+          "target": "acae3a2c72cd42f79fb4cecb74a157c1",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.rent_again!=true",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "d773bcdc417542b3b0642777c586eafe",
+          "edgeType": "Branch",
+          "source": "e802b27e336b42b491ccc1cc3f3dbb48",
+          "target": "7c9eaf327d8640cba45ddb2e2f4cb110",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.rent_again=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "b3fdeb9edda74017ace5251a4f9023c6",
+          "edgeType": "Edge",
+          "source": "dd8d9a54122c4fdaad48bef29354cf82",
+          "target": "67114c588d3d4e2ea502a1152dc9b960",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cf7862957f7b4b75b19227851bd60d8f",
+          "edgeType": "Edge",
+          "source": "67114c588d3d4e2ea502a1152dc9b960",
+          "target": "e802b27e336b42b491ccc1cc3f3dbb48",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "e725dfeada3d41d1a619529471780a20": {
+      "id": "e725dfeada3d41d1a619529471780a20",
+      "name": "select_item_record",
+      "label": "Select Item Record",
+      "varType": "reference",
+      "table": "x_879255_rental_se_items",
+      "category": "vaInputs"
+    },
+    "29d20b532384423b960ad7a7e34cc87b": {
+      "id": "29d20b532384423b960ad7a7e34cc87b",
+      "name": "choose_a_start_date",
+      "label": "Choose A Start Date",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time"
+    },
+    "7678a3a4438b4681870d74482ce27d63": {
+      "id": "7678a3a4438b4681870d74482ce27d63",
+      "name": "choose_a_end_date",
+      "label": "Choose A End Date",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time"
+    },
+    "739053dcf61f4bff9b68f405a04099a9": {
+      "id": "739053dcf61f4bff9b68f405a04099a9",
+      "name": "create_rental_request",
+      "label": "Create Rental Request",
+      "varType": "reference",
+      "table": "x_879255_rental_se_rental",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "c7d5fa02eaf04a1e83e21240cff692c8": {
+      "id": "c7d5fa02eaf04a1e83e21240cff692c8",
+      "name": "rent_again",
+      "label": "Rent Again",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
         <key_phrases>Rent Item,rent</key_phrases>
         <library>false</library>
         <live_agent>false</live_agent>
@@ -28,14 +509,14 @@
         <sys_created_on>2022-09-05 20:57:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e0942c49973911101f5bb0efe153afa6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Rent Item</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_cb_topic_e0942c49973911101f5bb0efe153afa6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-05 20:57:48</sys_updated_on>
+        <sys_updated_on>2022-09-09 19:32:42</sys_updated_on>
         <triggerable_by_notification>false</triggerable_by_notification>
         <type>STANDARD</type>
         <variables/>

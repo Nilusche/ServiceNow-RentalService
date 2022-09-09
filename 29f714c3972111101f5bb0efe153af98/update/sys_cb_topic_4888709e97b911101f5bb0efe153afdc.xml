@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>99e3a849973911101f5bb0efe153afa1</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.39",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "ee52b3e0ba0a4638bea66657d16b89ee": {
+          "id": "ee52b3e0ba0a4638bea66657d16b89ee",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "02d6ac14ee734eea9bb2efb3bab797b5": {
+          "id": "02d6ac14ee734eea9bb2efb3bab797b5",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "c4cc7dab26c446c1952c8e6ecfe61d03": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "rented items",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the Items"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "0f184ec08b3a49b3b991f42a6c23cbe6",
+          "id": "c4cc7dab26c446c1952c8e6ecfe61d03",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "There are not records rented by you currently"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "renter={{vaInputs.user}}^rental_state=3"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "9eb1a4996cc14069a4ecbe0bb5618d20": {
+          "id": "9eb1a4996cc14069a4ecbe0bb5618d20",
+          "stepType": "TextOutput",
+          "name": "Greeting",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Which Items would you like to return"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "b18433f6dfc54bafacf84e019da8893f": {
+          "id": "b18433f6dfc54bafacf84e019da8893f",
+          "stepType": "CrudAction",
+          "name": "Close Rental",
+          "template": "rental_state=2",
+          "mode": "update",
+          "record": "0f184ec08b3a49b3b991f42a6c23cbe6",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "b59ce0f6f0e147ad8ca67ed4955e720e"
+        },
+        "3f559bab3f2445d4a616d57f891ee1f0": {
+          "id": "3f559bab3f2445d4a616d57f891ee1f0",
+          "stepType": "LookupRecord",
+          "name": "Look up Item",
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_id={{vaInputs.rented_items.item.sys_id}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "049ccfa74b2749249db41f6fad1a6ca8"
+        },
+        "d2de25f49cff4d97aa113793a67f9e74": {
+          "id": "d2de25f49cff4d97aa113793a67f9e74",
+          "stepType": "CrudAction",
+          "name": "Free Item from beeing rented",
+          "template": "rented=false",
+          "mode": "update",
+          "record": "049ccfa74b2749249db41f6fad1a6ca8",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "285c029fb9c7423cbcf3134d6c350d87"
+        },
+        "a7566a846ce9491c9b8e5676a1cdb2bc": {
+          "id": "a7566a846ce9491c9b8e5676a1cdb2bc",
+          "stepType": "TextOutput",
+          "name": "Return",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your Item has been returned successfully"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "4828414fa11749da9a3c9c8af147b198": {
+          "id": "4828414fa11749da9a3c9c8af147b198",
+          "stepType": "Prompt",
+          "name": "Return again",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Would you like to return an Item again?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "be07bb2f8d854d7ba32ad6411a7d8699"
+        },
+        "e7ebe7d8756d44ea8f3a0288460dec35": {
+          "id": "e7ebe7d8756d44ea8f3a0288460dec35",
+          "stepType": "Decision",
+          "name": "Return again?"
+        }
+      },
+      "edges": [
+        {
+          "id": "7d39e3f89f68414fab3ef030c94e094e",
+          "edgeType": "Edge",
+          "source": "ee52b3e0ba0a4638bea66657d16b89ee",
+          "target": "9eb1a4996cc14069a4ecbe0bb5618d20",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d07092152dda46bd9937a404d88d5eb6",
+          "edgeType": "Edge",
+          "source": "9eb1a4996cc14069a4ecbe0bb5618d20",
+          "target": "c4cc7dab26c446c1952c8e6ecfe61d03",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "75d288338183485a87675374d7f3a363",
+          "edgeType": "Edge",
+          "source": "c4cc7dab26c446c1952c8e6ecfe61d03",
+          "target": "b18433f6dfc54bafacf84e019da8893f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "100005bc46324290a53b5814a967310c",
+          "edgeType": "Edge",
+          "source": "b18433f6dfc54bafacf84e019da8893f",
+          "target": "3f559bab3f2445d4a616d57f891ee1f0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "6bfad2af27e547cf96bab85ae744cbdd",
+          "edgeType": "Edge",
+          "source": "3f559bab3f2445d4a616d57f891ee1f0",
+          "target": "d2de25f49cff4d97aa113793a67f9e74",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c364c5d1fde3441285a33214652d40e1",
+          "edgeType": "Edge",
+          "source": "d2de25f49cff4d97aa113793a67f9e74",
+          "target": "a7566a846ce9491c9b8e5676a1cdb2bc",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "cf3e4e769b6c4ffea7073388f354c1ba",
+          "edgeType": "Edge",
+          "source": "a7566a846ce9491c9b8e5676a1cdb2bc",
+          "target": "4828414fa11749da9a3c9c8af147b198",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1851151c25be4ee2a766abc2afa8b7e6",
+          "edgeType": "Edge",
+          "source": "4828414fa11749da9a3c9c8af147b198",
+          "target": "e7ebe7d8756d44ea8f3a0288460dec35",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "4b47599ba4a84e4bb2dc035c6e7c074b",
+          "edgeType": "Branch",
+          "source": "e7ebe7d8756d44ea8f3a0288460dec35",
+          "target": "02d6ac14ee734eea9bb2efb3bab797b5",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.return_again!=true",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "22748f9f5b824f6692f4d26d6abf8e0b",
+          "edgeType": "Branch",
+          "source": "e7ebe7d8756d44ea8f3a0288460dec35",
+          "target": "c4cc7dab26c446c1952c8e6ecfe61d03",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.return_again=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "0f184ec08b3a49b3b991f42a6c23cbe6": {
+      "id": "0f184ec08b3a49b3b991f42a6c23cbe6",
+      "name": "rented_items",
+      "label": "Rented Items",
+      "varType": "reference",
+      "table": "x_879255_rental_se_rental",
+      "category": "vaInputs"
+    },
+    "b59ce0f6f0e147ad8ca67ed4955e720e": {
+      "id": "b59ce0f6f0e147ad8ca67ed4955e720e",
+      "name": "close_rental",
+      "label": "Close Rental",
+      "varType": "reference",
+      "table": "x_879255_rental_se_rental",
+      "inactive": true,
+      "category": "vaInputs"
+    },
+    "049ccfa74b2749249db41f6fad1a6ca8": {
+      "id": "049ccfa74b2749249db41f6fad1a6ca8",
+      "name": "look_up_item",
+      "label": "Look Up Item",
+      "varType": "reference",
+      "table": "x_879255_rental_se_items",
+      "category": "vaInputs"
+    },
+    "285c029fb9c7423cbcf3134d6c350d87": {
+      "id": "285c029fb9c7423cbcf3134d6c350d87",
+      "name": "free_item_from_beeing_rented",
+      "label": "Free Item From Beeing Rented",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs"
+    },
+    "be07bb2f8d854d7ba32ad6411a7d8699": {
+      "id": "be07bb2f8d854d7ba32ad6411a7d8699",
+      "name": "return_again",
+      "label": "Return Again",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Return Items,return</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Return Items</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>x_879255_rental_se.admin,x_879255_rental_se.co_worker,x_879255_rental_se.student</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 19:37:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4888709e97b911101f5bb0efe153afdc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Return Items</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_cb_topic_4888709e97b911101f5bb0efe153afdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 20:06:05</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=4888709e97b911101f5bb0efe153afdc"/>
+</record_update>

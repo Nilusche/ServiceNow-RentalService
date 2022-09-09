@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>99e3a849973911101f5bb0efe153afa1</category>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.39",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "b81aef09ba97497dbc0407309c431b8b": {
+          "id": "b81aef09ba97497dbc0407309c431b8b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "906c0a9b581a48e4acda46336910a0cc": {
+          "id": "906c0a9b581a48e4acda46336910a0cc",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "91922bfe2c4b4edca29f1fe8615f0671": {
+          "id": "91922bfe2c4b4edca29f1fe8615f0671",
+          "stepType": "TextOutput",
+          "name": "Greeting",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your current Account balance is: "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.get_account_balance.total_balance}}",
+                      "displayValue": "Input Variables➛Get Account Balance➛Total balance"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "€"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Using this Virtual Agent you can recharge the Account by certain amounts"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "57349b6577d146a38f42f84c5291998e": {
+          "id": "57349b6577d146a38f42f84c5291998e",
+          "stepType": "LookupRecord",
+          "name": "Get Account Balance",
+          "condition": {
+            "mode": "glide_query",
+            "value": "user={{vaInputs.user}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "1931d7e51324434fba47005aa5901ea5"
+        },
+        "79ec562b6acf4d4da66b9ae98194a0a5": {
+          "stepType": "ChoicePrompt",
+          "name": "Amount",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the Amount to recharge"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "64b847ac600341efadf7ef92d788f1fb",
+          "id": "79ec562b6acf4d4da66b9ae98194a0a5",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "2a9133aa8fbe4d3884e5576d64320b28": {
+          "id": "2a9133aa8fbe4d3884e5576d64320b28",
+          "stepType": "CrudAction",
+          "name": "Update Account",
+          "template": "total_balance={{vaVars.Sum}}",
+          "mode": "update",
+          "record": "1931d7e51324434fba47005aa5901ea5",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "7d7ceabac50645df931d686565e398c3"
+        },
+        "5e35ceee2516477e914c7fdb4db7bd02": {
+          "id": "5e35ceee2516477e914c7fdb4db7bd02",
+          "name": "Calculate new balance",
+          "script": "(function execute() {\n    /* Code your scripted action here. For example, you might update a\n       record based on conditional logic:\n\n        if (vaVars.my_flag == 'say hello') {\n            gs.info('hi there');\n        } else {\n            gs.info('bye now');\n        }\n    */\n    var stat = new GlideRecord(\"x_879255_rental_se_stats\");\n    stat.get(vaInputs.get_account_balance.getValue());\n    var balance = parseFloat(stat.getValue(\"total_balance\"));\n    var amount =  parseFloat(vaInputs.amount.getValue());\n    var sum = amount + balance;\n    gs.info(\"balance \"+  balance + \" amount \"+ amount + \" sum \"+ sum);\n    vaVars.Sum = sum;\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "2340f3a47fbe40bca253510e7bedd736": {
+          "id": "2340f3a47fbe40bca253510e7bedd736",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "3f2e470954154c5992657faa78644f36": {
+          "id": "3f2e470954154c5992657faa78644f36",
+          "stepType": "Prompt",
+          "name": "Again",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Would you like to recharge again?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "eb07ddd2ce2245c98490460d6fe29478"
+        },
+        "9a19661520624ef2ada62a81d1bf800f": {
+          "id": "9a19661520624ef2ada62a81d1bf800f",
+          "stepType": "TextOutput",
+          "name": "Success",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your new Account balance is "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaVars.Sum}}",
+                      "displayValue": "Script Variables➛Sum"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "€"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d6a6e8899f404457b33f8fadc2eaddc1",
+          "edgeType": "Edge",
+          "source": "5e35ceee2516477e914c7fdb4db7bd02",
+          "target": "2a9133aa8fbe4d3884e5576d64320b28",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ea47271a63b04c6f9b22e23630047835",
+          "edgeType": "Edge",
+          "source": "79ec562b6acf4d4da66b9ae98194a0a5",
+          "target": "5e35ceee2516477e914c7fdb4db7bd02",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d2c71de84f394f09b4411f62872d8a1e",
+          "edgeType": "Edge",
+          "source": "91922bfe2c4b4edca29f1fe8615f0671",
+          "target": "79ec562b6acf4d4da66b9ae98194a0a5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ef3d862f9c8c43a493985f5a18a9c60b",
+          "edgeType": "Edge",
+          "source": "b81aef09ba97497dbc0407309c431b8b",
+          "target": "57349b6577d146a38f42f84c5291998e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "acf15180ed71430ebc31496ee41b6328",
+          "edgeType": "Edge",
+          "source": "57349b6577d146a38f42f84c5291998e",
+          "target": "91922bfe2c4b4edca29f1fe8615f0671",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3fa90ca0da7b484d95027827e4597320",
+          "edgeType": "Branch",
+          "source": "2340f3a47fbe40bca253510e7bedd736",
+          "target": "906c0a9b581a48e4acda46336910a0cc",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.again!=true",
+            "mode": "query"
+          },
+          "label": "No"
+        },
+        {
+          "id": "338643285c7944c4b32fe975378b792f",
+          "edgeType": "Edge",
+          "source": "3f2e470954154c5992657faa78644f36",
+          "target": "2340f3a47fbe40bca253510e7bedd736",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "46fa6adaf3d94fc6b11bded6b4ed8722",
+          "edgeType": "Branch",
+          "source": "2340f3a47fbe40bca253510e7bedd736",
+          "target": "79ec562b6acf4d4da66b9ae98194a0a5",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.again=true",
+            "mode": "query"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "5aef82d6a7cb45b69f1504c4dd476029",
+          "edgeType": "Edge",
+          "source": "2a9133aa8fbe4d3884e5576d64320b28",
+          "target": "9a19661520624ef2ada62a81d1bf800f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "140dcc9e33e84fc3a0af6bdf7391c758",
+          "edgeType": "Edge",
+          "source": "9a19661520624ef2ada62a81d1bf800f",
+          "target": "3f2e470954154c5992657faa78644f36",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "1931d7e51324434fba47005aa5901ea5": {
+      "id": "1931d7e51324434fba47005aa5901ea5",
+      "name": "get_account_balance",
+      "label": "Get Account Balance",
+      "varType": "reference",
+      "table": "x_879255_rental_se_stats",
+      "category": "vaInputs"
+    },
+    "64b847ac600341efadf7ef92d788f1fb": {
+      "id": "64b847ac600341efadf7ef92d788f1fb",
+      "name": "amount",
+      "label": "Amount",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "50",
+          "value": "50"
+        },
+        {
+          "label": "100",
+          "value": "100",
+          "checked": true
+        },
+        {
+          "label": "500",
+          "value": "500",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "7d7ceabac50645df931d686565e398c3": {
+      "id": "7d7ceabac50645df931d686565e398c3",
+      "name": "update_account",
+      "label": "Update Account",
+      "varType": "reference",
+      "table": "x_879255_rental_se_stats",
+      "inactive": true,
+      "category": "vaInputs"
+    },
+    "85a4d911b78d40a2879f3719ee10f456": {
+      "id": "85a4d911b78d40a2879f3719ee10f456",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "Sum",
+      "label": "Sum",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "eb07ddd2ce2245c98490460d6fe29478": {
+      "id": "eb07ddd2ce2245c98490460d6fe29478",
+      "name": "again",
+      "label": "Again",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Recharge Account,recharge,Account,balance</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Recharge Account</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>x_879255_rental_se.student,x_879255_rental_se.co_worker,x_879255_rental_se.admin</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-09 20:07:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7c6fbc1697f911101f5bb0efe153af45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Recharge Account</sys_name>
+        <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
+        <sys_update_name>sys_cb_topic_7c6fbc1697f911101f5bb0efe153af45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-09 20:58:52</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=7c6fbc1697f911101f5bb0efe153af45"/>
+</record_update>
