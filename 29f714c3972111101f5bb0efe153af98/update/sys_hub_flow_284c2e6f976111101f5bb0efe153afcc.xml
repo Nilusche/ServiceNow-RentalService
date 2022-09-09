@@ -11,12 +11,12 @@
         <copied_from_name/>
         <description/>
         <internal_name>rental_service_receipts</internal_name>
-        <label_cache>[{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__dont_treat_as_error__","label":"12 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__action_status__","label":"12 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.item","label":"Trigger - Record Created➛Rental Record➛Item","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"item"},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.table_name","label":"10 - Update Record➛Items Table","reference":"x_879255_rental_se_items","reference_display":"Items","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.record","label":"10 - Update Record➛Items Record","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Table","label":"2 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Record","label":"2 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.renter","label":"Trigger - Record Created➛Rental Record➛Rentee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"renter"},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.item.owner","label":"Trigger - Record Created➛Rental Record➛Item➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_items","column_name":"owner"},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.record","label":"3 - Update Record➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.table_name","label":"3 - Update Record➛Rental Table","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Record","label":"6 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Table","label":"6 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.status","label":"6 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.error_message","label":"6 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__action_status__","label":"6 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__dont_treat_as_error__","label":"6 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.record","label":"7 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.table_name","label":"7 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Record","label":"8 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Table","label":"8 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__action_status__","label":"8 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__dont_treat_as_error__","label":"8 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.record","label":"9 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.table_name","label":"9 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__dont_treat_as_error__","label":"12 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__action_status__","label":"12 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.item","label":"Trigger - Record Created➛Rental Record➛Item","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"item"},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.table_name","label":"10 - Update Record➛Items Table","reference":"x_879255_rental_se_items","reference_display":"Items","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.record","label":"10 - Update Record➛Items Record","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Table","label":"2 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Record","label":"2 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.renter","label":"Trigger - Record Created➛Rental Record➛Rentee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"renter"},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.item.owner","label":"Trigger - Record Created➛Rental Record➛Item➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_items","column_name":"owner"},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.record","label":"3 - Update Record➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.table_name","label":"3 - Update Record➛Rental Table","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Record","label":"6 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Table","label":"6 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.status","label":"6 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.error_message","label":"6 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__action_status__","label":"6 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__dont_treat_as_error__","label":"6 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.record","label":"7 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.table_name","label":"7 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Record","label":"8 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Table","label":"8 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__action_status__","label":"8 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__dont_treat_as_error__","label":"8 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.record","label":"9 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.table_name","label":"9 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>dad3bea797a111101f5bb0efe153afb9</master_snapshot>
         <name>Rental Service Receipts</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>d3800b21977d11101f5bb0efe153af19</remote_trigger_id>
+        <remote_trigger_id>ee1c9eca977111101f5bb0efe153af77</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>284c2e6f976111101f5bb0efe153afcc</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Rental Service Receipts</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_hub_flow_284c2e6f976111101f5bb0efe153afcc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=284c2e6f976111101f5bb0efe153afcc"/>
@@ -57,45 +57,45 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 21:36:15</sys_created_on>
+        <sys_created_on>2022-09-09 08:13:58</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d3800b21977d11101f5bb0efe153af19</sys_id>
+        <sys_id>ee1c9eca977111101f5bb0efe153af77</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:15</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:58</sys_updated_on>
         <table>x_879255_rental_se_rental</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"5f800b21977d11101f5bb0efe153af19","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"aa1c9eca977111101f5bb0efe153af78","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>284c2e6f976111101f5bb0efe153afcc</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 21:36:15</sys_created_on>
-        <sys_id>5f800b21977d11101f5bb0efe153af19</sys_id>
+        <sys_created_on>2022-09-09 08:13:58</sys_created_on>
+        <sys_id>aa1c9eca977111101f5bb0efe153af78</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:15</sys_updated_on>
-        <trigger display_value="">d3800b21977d11101f5bb0efe153af19</trigger>
+        <sys_updated_on>2022-09-09 08:13:58</sys_updated_on>
+        <trigger display_value="">ee1c9eca977111101f5bb0efe153af77</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>5f800b21977d11101f5bb0efe153af19</document_id>
+        <document_id>aa1c9eca977111101f5bb0efe153af78</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 21:36:15</sys_created_on>
-        <sys_id>17800b21977d11101f5bb0efe153af1a</sys_id>
+        <sys_created_on>2022-09-09 08:13:58</sys_created_on>
+        <sys_id>a21c9eca977111101f5bb0efe153af79</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=284c2e6f976111101f5bb0efe153afcc^sys_idNOT IN5f800b21977d11101f5bb0efe153af19"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=284c2e6f976111101f5bb0efe153afcc^sys_idNOT INaa1c9eca977111101f5bb0efe153af78"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=284c2e6f976111101f5bb0efe153afcc^sys_idNOT INca7deaef976111101f5bb0efe153af1d"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>This Flow is Triggered when a user rents a new Item</comment>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
         <name>Created</name>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:05:02</sys_created_on>
         <sys_id>ca7deaef976111101f5bb0efe153af1d</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -218,14 +218,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:05:02</sys_created_on>
         <sys_id>027deaef976111101f5bb0efe153af19</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -299,14 +299,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:05:02</sys_created_on>
         <sys_id>8e7deaef976111101f5bb0efe153af14</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -326,7 +326,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Ask the Renter or Co-Worker or Admin for Rental Approval</comment>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -336,10 +336,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:21:56</sys_created_on>
         <sys_id>194dfee9973d11101f5bb0efe153af04</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>f700e4da-9355-4519-a33d-dbabdf976533</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=194dfee9973d11101f5bb0efe153af04"/>
@@ -453,7 +453,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Update rental state to "rented"</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -463,10 +463,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:19:21</sys_created_on>
         <sys_id>37b0b6e397a111101f5bb0efe153afdd</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=37b0b6e397a111101f5bb0efe153afdd"/>
@@ -542,7 +542,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Update Total Balance of Rentee</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -552,10 +552,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:21:56</sys_created_on>
         <sys_id>614dfee9973d11101f5bb0efe153af20</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>7c2429d0-b76b-4b54-943c-c957ee434c76</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=614dfee9973d11101f5bb0efe153af20"/>
@@ -644,7 +644,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Search for Renter Stats</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -654,10 +654,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:21:56</sys_created_on>
         <sys_id>694dfee9973d11101f5bb0efe153af35</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>7b8db000-8b58-4219-a1ae-846ab5f09df7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=694dfee9973d11101f5bb0efe153af35"/>
@@ -707,7 +707,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Search for Rentee Stats</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -717,10 +717,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:21:56</sys_created_on>
         <sys_id>6d4dfee9973d11101f5bb0efe153af19</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>fe85b79c-45e7-48f6-aefd-b042a0389998</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6d4dfee9973d11101f5bb0efe153af19"/>
@@ -770,7 +770,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Set Item rented status as true</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -780,10 +780,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:31:02</sys_created_on>
         <sys_id>765fbaad973d11101f5bb0efe153af91</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>7eff2c50-1cb6-4e9e-8696-6055efc3fcbf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=765fbaad973d11101f5bb0efe153af91"/>
@@ -859,7 +859,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Send notification to Rentee</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -869,10 +869,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:05:02</sys_created_on>
         <sys_id>8a7deaef976111101f5bb0efe153af23</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>6ce71fc4-8959-4019-a0ed-75e2867a3f12</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8a7deaef976111101f5bb0efe153af23"/>
@@ -948,7 +948,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Send notification to Renter</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -958,10 +958,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:14:00</sys_created_on>
         <sys_id>d58fa2a397a111101f5bb0efe153af37</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>b0a9f9da-f213-49ab-889a-eb37e8045099</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d58fa2a397a111101f5bb0efe153af37"/>
@@ -1037,7 +1037,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Update Total Balance of Renter</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -1047,10 +1047,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:21:57</sys_created_on>
         <sys_id>e14dfee9973d11101f5bb0efe153af3b</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>1e872765-a447-44d4-a2f7-29fdc1e2e02b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e14dfee9973d11101f5bb0efe153af3b"/>
@@ -1139,7 +1139,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Notify Requester</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">284c2e6f976111101f5bb0efe153afcc</flow>
@@ -1149,10 +1149,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:05</sys_created_on>
         <sys_id>f0800721977d11101f5bb0efe153afdf</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 22:15:20</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>e81c14ab-4bc0-4f6e-b794-fdfacd212bf4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f0800721977d11101f5bb0efe153afdf"/>
@@ -1227,7 +1227,7 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=284c2e6f976111101f5bb0efe153afcc^sys_idNOT INdd4dfee9973d11101f5bb0efe153af09,e8800721977d11101f5bb0efe153afd9"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">514dfee9973d11101f5bb0efe153af09</block>
-        <comment/>
+        <comment>If Rental approved</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -1247,10 +1247,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:21:56</sys_created_on>
         <sys_id>dd4dfee9973d11101f5bb0efe153af09</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>340ff868-0a6e-481b-ba6c-01f188bba4f0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1299,7 +1299,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=dd4dfee9973d11101f5bb0efe153af09"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">20800721977d11101f5bb0efe153afd9</block>
-        <comment/>
+        <comment>If rejected</comment>
         <connected_to>340ff868-0a6e-481b-ba6c-01f188bba4f0</connected_to>
         <decision_table/>
         <decision_table_inputs/>
@@ -1318,10 +1318,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:05</sys_created_on>
         <sys_id>e8800721977d11101f5bb0efe153afd9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:59</sys_updated_on>
         <ui_id>6955f15e-1065-4113-85ae-bc872e0f77a2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1386,18 +1386,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"fad3fea797a111101f5bb0efe153af4a","name":"plan","plan_signature":null}}</plan>
         <plan_id>284c2e6f976111101f5bb0efe153afcc</plan_id>
-        <snapshot>a77943a9977d11101f5bb0efe153af2b</snapshot>
+        <snapshot>dad3bea797a111101f5bb0efe153afb9</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fad3fea797a111101f5bb0efe153af4a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
-        <trigger display_value="">d3800b21977d11101f5bb0efe153af19</trigger>
+        <sys_updated_on>2022-09-09 08:13:58</sys_updated_on>
+        <trigger display_value="">ee1c9eca977111101f5bb0efe153af77</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=284c2e6f976111101f5bb0efe153afcc"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1411,7 +1411,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>rental_service_receipts</internal_name>
-        <label_cache>[{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__dont_treat_as_error__","label":"12 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__action_status__","label":"12 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"Created_1.current.item","label":"Trigger - Record Created➛Rental Record➛Item","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"item"},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.table_name","label":"10 - Update Record➛Items Table","reference":"x_879255_rental_se_items","reference_display":"Items","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.record","label":"10 - Update Record➛Items Record","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Table","label":"2 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Record","label":"2 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.renter","label":"Trigger - Record Created➛Rental Record➛Rentee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"renter"},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.item.owner","label":"Trigger - Record Created➛Rental Record➛Item➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_items","column_name":"owner"},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.record","label":"3 - Update Record➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.table_name","label":"3 - Update Record➛Rental Table","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Record","label":"6 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Table","label":"6 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.status","label":"6 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.error_message","label":"6 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__action_status__","label":"6 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__dont_treat_as_error__","label":"6 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.record","label":"7 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.table_name","label":"7 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Record","label":"8 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Table","label":"8 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__action_status__","label":"8 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__dont_treat_as_error__","label":"8 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.record","label":"9 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.table_name","label":"9 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__dont_treat_as_error__","label":"12 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e81c14ab-4bc0-4f6e-b794-fdfacd212bf4.__action_status__","label":"12 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.item","label":"Trigger - Record Created➛Rental Record➛Item","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"item"},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__dont_treat_as_error__","label":"10 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.__action_status__","label":"10 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.table_name","label":"10 - Update Record➛Items Table","reference":"x_879255_rental_se_items","reference_display":"Items","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eff2c50-1cb6-4e9e-8696-6055efc3fcbf.record","label":"10 - Update Record➛Items Record","reference":"x_879255_rental_se_items","reference_display":"Items","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b0a9f9da-f213-49ab-889a-eb37e8045099.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__dont_treat_as_error__","label":"2 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.__action_status__","label":"2 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.error_message","label":"2 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.status","label":"2 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Table","label":"2 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4bf3fc47-ca40-462b-b683-2f4032cbadaf.Record","label":"2 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6ce71fc4-8959-4019-a0ed-75e2867a3f12.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.renter","label":"Trigger - Record Created➛Rental Record➛Rentee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_rental","column_name":"renter"},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"24180adf-86cf-4aca-a36b-dde8695c2ad6.__dont_treat_as_error__","label":"4 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.item.owner","label":"Trigger - Record Created➛Rental Record➛Item➛Owner","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_items","column_name":"owner"},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.record","label":"3 - Update Record➛Rental Record","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.table_name","label":"3 - Update Record➛Rental Table","reference":"x_879255_rental_se_rental","reference_display":"Rental","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f700e4da-9355-4519-a33d-dbabdf976533.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Record","label":"6 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.Table","label":"6 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.status","label":"6 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.error_message","label":"6 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__action_status__","label":"6 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fe85b79c-45e7-48f6-aefd-b042a0389998.__dont_treat_as_error__","label":"6 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.record","label":"7 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.table_name","label":"7 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__action_status__","label":"7 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7c2429d0-b76b-4b54-943c-c957ee434c76.__dont_treat_as_error__","label":"7 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Record","label":"8 - Look Up Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.Table","label":"8 - Look Up Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.status","label":"8 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.error_message","label":"8 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__action_status__","label":"8 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7b8db000-8b58-4219-a1ae-846ab5f09df7.__dont_treat_as_error__","label":"8 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.record","label":"9 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.table_name","label":"9 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__action_status__","label":"9 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1e872765-a447-44d4-a2f7-29fdc1e2e02b.__dont_treat_as_error__","label":"9 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Rental Service Receipts</name>
         <natlang/>
@@ -1428,7 +1428,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dad3bea797a111101f5bb0efe153afb9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1436,14 +1436,14 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=dad3bea797a111101f5bb0efe153afb9"/>
     <sys_variable_value action="delete_multiple" query="document_key=dad3bea797a111101f5bb0efe153afb9"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=dad3bea797a111101f5bb0efe153afb9^sys_idNOT IN6ed3fea797a111101f5bb0efe153af01"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>This Flow is Triggered when a user rents a new Item</comment>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
         <name>Created</name>
@@ -1451,10 +1451,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:55</sys_created_on>
         <sys_id>6ed3fea797a111101f5bb0efe153af01</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:16</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:58</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1566,14 +1566,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:55</sys_created_on>
         <sys_id>12d3bea797a111101f5bb0efe153afbc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:13</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1647,14 +1647,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:55</sys_created_on>
         <sys_id>d2d3bea797a111101f5bb0efe153afd6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:13</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1674,7 +1674,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <comment/>
+        <comment>Notify Requester</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -1684,10 +1684,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>2280c721977d11101f5bb0efe153af3f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>e81c14ab-4bc0-4f6e-b794-fdfacd212bf4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2280c721977d11101f5bb0efe153af3f"/>
@@ -1763,7 +1763,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <comment/>
+        <comment>Send notification to Renter</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -1773,10 +1773,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:55</sys_created_on>
         <sys_id>22d3bea797a111101f5bb0efe153afee</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>b0a9f9da-f213-49ab-889a-eb37e8045099</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=22d3bea797a111101f5bb0efe153afee"/>
@@ -1852,7 +1852,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <comment/>
+        <comment>Search for Rentee Stats</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -1862,10 +1862,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>2680c721977d11101f5bb0efe153af10</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>fe85b79c-45e7-48f6-aefd-b042a0389998</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2680c721977d11101f5bb0efe153af10"/>
@@ -1915,7 +1915,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Set Item rented status as true</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -1925,10 +1925,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>2680c721977d11101f5bb0efe153af2c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>7eff2c50-1cb6-4e9e-8696-6055efc3fcbf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2680c721977d11101f5bb0efe153af2c"/>
@@ -2004,7 +2004,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Update rental state to "rented"</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -2014,10 +2014,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:55</sys_created_on>
         <sys_id>26d3bea797a111101f5bb0efe153afe6</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>e2bbba7f-f9a3-4de9-9a75-b8e5cc7ba960</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26d3bea797a111101f5bb0efe153afe6"/>
@@ -2093,7 +2093,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Update Total Balance of Renter</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -2103,10 +2103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>6680c721977d11101f5bb0efe153af26</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>1e872765-a447-44d4-a2f7-29fdc1e2e02b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6680c721977d11101f5bb0efe153af26"/>
@@ -2195,7 +2195,7 @@
         <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
-        <comment/>
+        <comment>Search for Renter Stats</comment>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -2205,10 +2205,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>6a80c721977d11101f5bb0efe153af20</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>7b8db000-8b58-4219-a1ae-846ab5f09df7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6a80c721977d11101f5bb0efe153af20"/>
@@ -2258,7 +2258,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <comment/>
+        <comment>Send notification to Rentee</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -2268,10 +2268,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 15:32:55</sys_created_on>
         <sys_id>6ed3bea797a111101f5bb0efe153afff</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>6ce71fc4-8959-4019-a0ed-75e2867a3f12</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6ed3bea797a111101f5bb0efe153afff"/>
@@ -2347,7 +2347,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Update Total Balance of Rentee</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -2357,10 +2357,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>a680c721977d11101f5bb0efe153af17</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>7c2429d0-b76b-4b54-943c-c957ee434c76</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a680c721977d11101f5bb0efe153af17"/>
@@ -2449,7 +2449,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
-        <comment/>
+        <comment>Ask the Renter or Co-Worker or Admin for Rental Approval</comment>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Receipts">dad3bea797a111101f5bb0efe153afb9</flow>
@@ -2459,10 +2459,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:12</sys_created_on>
         <sys_id>aa808721977d11101f5bb0efe153affd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>f700e4da-9355-4519-a33d-dbabdf976533</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa808721977d11101f5bb0efe153affd"/>
@@ -2575,7 +2575,7 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=dad3bea797a111101f5bb0efe153afb9^sys_idNOT IN2a80c721977d11101f5bb0efe153af41,6280c721977d11101f5bb0efe153af46"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">514dfee9973d11101f5bb0efe153af09</block>
-        <comment/>
+        <comment>If Rental approved</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -2595,10 +2595,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>2a80c721977d11101f5bb0efe153af41</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>340ff868-0a6e-481b-ba6c-01f188bba4f0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2647,7 +2647,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=2a80c721977d11101f5bb0efe153af41"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">20800721977d11101f5bb0efe153afd9</block>
-        <comment/>
+        <comment>If rejected</comment>
         <connected_to>340ff868-0a6e-481b-ba6c-01f188bba4f0</connected_to>
         <decision_table/>
         <decision_table_inputs/>
@@ -2666,10 +2666,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 21:36:13</sys_created_on>
         <sys_id>6280c721977d11101f5bb0efe153af46</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 21:36:14</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:13:56</sys_updated_on>
         <ui_id>6955f15e-1065-4113-85ae-bc872e0f77a2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>

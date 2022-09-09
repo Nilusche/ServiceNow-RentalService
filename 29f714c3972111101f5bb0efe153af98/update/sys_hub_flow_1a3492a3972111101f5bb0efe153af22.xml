@@ -16,7 +16,7 @@
         <name>Rental Service Registration</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>4f9e08e5977111101f5bb0efe153afc4</remote_trigger_id>
+        <remote_trigger_id>08bc1e0e977111101f5bb0efe153afef</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a3492a3972111101f5bb0efe153af22</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Rental Service Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_hub_flow_1a3492a3972111101f5bb0efe153af22</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1a3492a3972111101f5bb0efe153af22"/>
@@ -57,45 +57,45 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 08:38:50</sys_created_on>
+        <sys_created_on>2022-09-09 08:16:32</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>4f9e08e5977111101f5bb0efe153afc4</sys_id>
+        <sys_id>08bc1e0e977111101f5bb0efe153afef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <table>x_879255_rental_se_stats</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"c79e08e5977111101f5bb0efe153afc5","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"8cbc1e0e977111101f5bb0efe153afef","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>1a3492a3972111101f5bb0efe153af22</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 08:38:50</sys_created_on>
-        <sys_id>c79e08e5977111101f5bb0efe153afc5</sys_id>
+        <sys_created_on>2022-09-09 08:16:32</sys_created_on>
+        <sys_id>8cbc1e0e977111101f5bb0efe153afef</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
-        <trigger display_value="">4f9e08e5977111101f5bb0efe153afc4</trigger>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <trigger display_value="">08bc1e0e977111101f5bb0efe153afef</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>c79e08e5977111101f5bb0efe153afc5</document_id>
+        <document_id>8cbc1e0e977111101f5bb0efe153afef</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-07 08:38:50</sys_created_on>
-        <sys_id>8f9e08e5977111101f5bb0efe153afc5</sys_id>
+        <sys_created_on>2022-09-09 08:16:32</sys_created_on>
+        <sys_id>40bc1e0e977111101f5bb0efe153aff0</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1a3492a3972111101f5bb0efe153af22^sys_idNOT INc79e08e5977111101f5bb0efe153afc5"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1a3492a3972111101f5bb0efe153af22^sys_idNOT IN8cbc1e0e977111101f5bb0efe153afef"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=1a3492a3972111101f5bb0efe153af22^sys_idNOT INa22652a7972111101f5bb0efe153afc3"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>New Registration Attempt</comment>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
         <name>Created</name>
@@ -103,10 +103,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>a22652a7972111101f5bb0efe153afc3</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -218,14 +218,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>262652a7972111101f5bb0efe153afa0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -299,14 +299,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>e62652a7972111101f5bb0efe153afa5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -326,7 +326,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Ask the Admin for Co-Worker for Registration Approval</comment>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
@@ -336,10 +336,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>222652a7972111101f5bb0efe153afd4</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 09:01:39</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>581547bd-6a8e-40e8-a46d-9e2568958c2f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=222652a7972111101f5bb0efe153afd4"/>
@@ -479,7 +479,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Notify Guest</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
@@ -489,10 +489,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>362652a7972111101f5bb0efe153afe8</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 09:01:39</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>d01c1f6a-7eac-42cb-bdde-580d8857e3e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=362652a7972111101f5bb0efe153afe8"/>
@@ -568,7 +568,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Update Stat to desired Role</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
@@ -578,10 +578,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>3e2652a7972111101f5bb0efe153afdf</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 09:01:39</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e2652a7972111101f5bb0efe153afdf"/>
@@ -683,7 +683,7 @@
         <action_inputs/>
         <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Delete Stat Record</comment>
         <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
@@ -693,10 +693,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 08:13:15</sys_created_on>
         <sys_id>58c88ced973111101f5bb0efe153afdc</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 09:01:39</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>e896b1f5-2a3e-4958-9824-aaafd51e2777</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=58c88ced973111101f5bb0efe153afdc"/>
@@ -720,7 +720,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Notify former Guest</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
@@ -730,10 +730,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:36:19</sys_created_on>
         <sys_id>9229166b972111101f5bb0efe153af93</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 09:01:39</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>879bc610-109b-423d-8f61-6399944f0895</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9229166b972111101f5bb0efe153af93"/>
@@ -808,7 +808,7 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=1a3492a3972111101f5bb0efe153af22^sys_idNOT IN2e2652a7972111101f5bb0efe153afd7,3e2652a7972111101f5bb0efe153afe2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">ee2652a7972111101f5bb0efe153afd6</block>
-        <comment/>
+        <comment>If Registration approved</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -828,10 +828,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>2e2652a7972111101f5bb0efe153afd7</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>2702472c-b128-4b5b-aeb2-4df19cd42f7d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -880,7 +880,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=2e2652a7972111101f5bb0efe153afd7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">762652a7972111101f5bb0efe153afe2</block>
-        <comment/>
+        <comment>If rejected</comment>
         <connected_to>2702472c-b128-4b5b-aeb2-4df19cd42f7d</connected_to>
         <decision_table/>
         <decision_table_inputs/>
@@ -899,10 +899,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>3e2652a7972111101f5bb0efe153afe2</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <ui_id>84b18e87-706e-4631-b8f4-0c665644d711</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -967,18 +967,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"0cc1a2e3976111101f5bb0efe153af60","name":"plan","plan_signature":null}}</plan>
         <plan_id>1a3492a3972111101f5bb0efe153af22</plan_id>
-        <snapshot>19d3586d977111101f5bb0efe153aff5</snapshot>
+        <snapshot>6fb162e3976111101f5bb0efe153afd2</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0cc1a2e3976111101f5bb0efe153af60</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
-        <trigger display_value="">4f9e08e5977111101f5bb0efe153afc4</trigger>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <trigger display_value="">08bc1e0e977111101f5bb0efe153afef</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1a3492a3972111101f5bb0efe153af22"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -1009,7 +1009,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6fb162e3976111101f5bb0efe153afd2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1017,14 +1017,14 @@
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:31</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=6fb162e3976111101f5bb0efe153afd2"/>
     <sys_variable_value action="delete_multiple" query="document_key=6fb162e3976111101f5bb0efe153afd2"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=6fb162e3976111101f5bb0efe153afd2^sys_idNOT IN7bb1a2e3976111101f5bb0efe153af23"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
-        <comment/>
+        <comment>New Registration Attempt</comment>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
         <name>Created</name>
@@ -1032,10 +1032,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7bb1a2e3976111101f5bb0efe153af23</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:50</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1147,14 +1147,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>23b162e3976111101f5bb0efe153afd5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:48</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1228,14 +1228,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>efb162e3976111101f5bb0efe153aff1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:48</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1255,7 +1255,7 @@
         <action_inputs/>
         <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
         <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
-        <comment/>
+        <comment>Delete Stat Record</comment>
         <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
@@ -1265,10 +1265,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 08:38:48</sys_created_on>
         <sys_id>329e08e5977111101f5bb0efe153af30</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:31</sys_updated_on>
         <ui_id>e896b1f5-2a3e-4958-9824-aaafd51e2777</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=329e08e5977111101f5bb0efe153af30"/>
@@ -1292,7 +1292,7 @@
         <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
+        <comment>Update Stat to desired Role</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
@@ -1302,10 +1302,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>33b1a2e3976111101f5bb0efe153af14</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <ui_id>44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33b1a2e3976111101f5bb0efe153af14"/>
@@ -1407,7 +1407,7 @@
         <action_inputs/>
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
-        <comment/>
+        <comment>Ask the Admin for Co-Worker for Registration Approval</comment>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
@@ -1417,10 +1417,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>3bb1a2e3976111101f5bb0efe153af0b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <ui_id>581547bd-6a8e-40e8-a46d-9e2568958c2f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3bb1a2e3976111101f5bb0efe153af0b"/>
@@ -1534,7 +1534,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <comment/>
+        <comment>Notify Guest</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
@@ -1544,10 +1544,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7bb1a2e3976111101f5bb0efe153af21</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:31</sys_updated_on>
         <ui_id>d01c1f6a-7eac-42cb-bdde-580d8857e3e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7bb1a2e3976111101f5bb0efe153af21"/>
@@ -1623,7 +1623,7 @@
         <action_inputs/>
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
-        <comment/>
+        <comment>Notify former Guest</comment>
         <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
@@ -1633,10 +1633,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7fb1a2e3976111101f5bb0efe153af1b</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <ui_id>879bc610-109b-423d-8f61-6399944f0895</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7fb1a2e3976111101f5bb0efe153af1b"/>
@@ -1711,7 +1711,7 @@
     <sys_hub_flow_logic action="delete_multiple" query="flow=6fb162e3976111101f5bb0efe153afd2^sys_idNOT IN73b162e3976111101f5bb0efe153affd,73b1a2e3976111101f5bb0efe153af02"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">ee2652a7972111101f5bb0efe153afd6</block>
-        <comment/>
+        <comment>If Registration approved</comment>
         <connected_to/>
         <decision_table/>
         <decision_table_inputs/>
@@ -1731,10 +1731,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>73b162e3976111101f5bb0efe153affd</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <ui_id>2702472c-b128-4b5b-aeb2-4df19cd42f7d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1783,7 +1783,7 @@
     <sys_hub_input_scripts action="delete_multiple" query="instance=73b162e3976111101f5bb0efe153affd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">762652a7972111101f5bb0efe153afe2</block>
-        <comment/>
+        <comment>If rejected</comment>
         <connected_to>2702472c-b128-4b5b-aeb2-4df19cd42f7d</connected_to>
         <decision_table/>
         <decision_table_inputs/>
@@ -1802,10 +1802,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>73b1a2e3976111101f5bb0efe153af02</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:49</sys_updated_on>
+        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
         <ui_id>84b18e87-706e-4631-b8f4-0c665644d711</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
