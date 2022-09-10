@@ -177,14 +177,14 @@ input[type="submit"]{
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-03 13:15:08</sys_created_on>
         <sys_id>af77649c977111101f5bb0efe153af9c</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>Create Rental</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sp_widget_af77649c977111101f5bb0efe153af9c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-04 19:41:00</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 10:14:32</sys_updated_on>
         <template><![CDATA[<div class="form-style-5">
   <legend><span class="number">?</span> Rent Items</legend>
   Pick the item you want to rent and start your Rental!

@@ -6,17 +6,16 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>rental_service_registration</internal_name>
-        <label_cache>[{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__dont_treat_as_error__","label":"5 - Apply Change Approval Policy➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__action_status__","label":"5 - Apply Change Approval Policy➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.decisions","label":"5 - Apply Change Approval Policy➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.state","label":"5 - Apply Change Approval Policy➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Not Yet Requested","value":"not requested","order":0.0},{"label":"Requested","value":"requested","order":1.0},{"label":"Approved","value":"approved","order":2.0},{"label":"Rejected","value":"rejected","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0},{"label":"No Longer Required","value":"not_required","order":5.0},{"label":"Skipped","value":"skipped","order":6.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.891b92ab972111101f5bb0efe153af38}}","label":"Faculty Admin - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__dont_treat_as_error__","label":"5 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__action_status__","label":"5 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__dont_treat_as_error__","label":"7 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__action_status__","label":"7 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.table_name","label":"3 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.record","label":"3 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.record","label":"5 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.table_name","label":"5 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Stats Record➛Appeal from","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_stats","column_name":"user"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Stats Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_879255_rental_se_stats","column_name":"sys_created_on"},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__action_status__","label":"6 - Delete Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__dont_treat_as_error__","label":"6 - Delete Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.verified_role","label":"Trigger - Record Created➛Stats Record➛Applying for role","reference":"","reference_display":"Applying for role","type":"choice","base_type":"choice","parent_table_name":"x_879255_rental_se_stats","column_name":"verified_role","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"used":false,"label":"co-worker","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"co-worker","value":"2","parameters":{"name":"x_879255_rental_se_stats"}},{"used":false,"label":"student","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"student","value":"1","parameters":{"name":"x_879255_rental_se_stats"}}]},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__dont_treat_as_error__","label":"6 - Delete Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__action_status__","label":"6 - Delete Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Stats Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_879255_rental_se_stats","column_name":"sys_created_on"},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Stats Record➛Applicant","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_stats","column_name":"user"},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.table_name","label":"5 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.record","label":"5 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.record","label":"3 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.table_name","label":"3 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__action_status__","label":"7 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__dont_treat_as_error__","label":"7 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__action_status__","label":"5 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__dont_treat_as_error__","label":"5 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"{{static.891b92ab972111101f5bb0efe153af38}}","label":"Faculty Admin - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.state","label":"5 - Apply Change Approval Policy➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Not Yet Requested","value":"not requested","order":0.0},{"label":"Requested","value":"requested","order":1.0},{"label":"Approved","value":"approved","order":2.0},{"label":"Rejected","value":"rejected","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0},{"label":"No Longer Required","value":"not_required","order":5.0},{"label":"Skipped","value":"skipped","order":6.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.decisions","label":"5 - Apply Change Approval Policy➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__action_status__","label":"5 - Apply Change Approval Policy➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__dont_treat_as_error__","label":"5 - Apply Change Approval Policy➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"{{static.9e83f71a1bf19910b342dc61ab4bcbd8}}","label":"Faculty Admin - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.c9933b1a1bf19910b342dc61ab4bcb42}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.896543621b6d11107165fdd49b4bcb8c}}","label":"Administrator - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"}]</label_cache>
         <master_snapshot>6fb162e3976111101f5bb0efe153afd2</master_snapshot>
         <name>Rental Service Registration</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>08bc1e0e977111101f5bb0efe153afef</remote_trigger_id>
+        <remote_trigger_id>4f8c77921b359910b342dc61ab4bcb00</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,15 +28,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a3492a3972111101f5bb0efe153af22</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Rental Service Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_hub_flow_1a3492a3972111101f5bb0efe153af22</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1a3492a3972111101f5bb0efe153af22"/>
@@ -56,43 +55,43 @@
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-09 08:16:32</sys_created_on>
+        <sys_created_by>egzon.tatari@alumni.fh-aachen.de</sys_created_by>
+        <sys_created_on>2022-09-10 09:53:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>08bc1e0e977111101f5bb0efe153afef</sys_id>
+        <sys_id>4f8c77921b359910b342dc61ab4bcb00</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <table>x_879255_rental_se_stats</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"8cbc1e0e977111101f5bb0efe153afef","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"c78c77921b359910b342dc61ab4bcb01","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>1a3492a3972111101f5bb0efe153af22</identifier>
         <runner>FDTriggerRunner</runner>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-09 08:16:32</sys_created_on>
-        <sys_id>8cbc1e0e977111101f5bb0efe153afef</sys_id>
+        <sys_created_by>egzon.tatari@alumni.fh-aachen.de</sys_created_by>
+        <sys_created_on>2022-09-10 09:53:50</sys_created_on>
+        <sys_id>c78c77921b359910b342dc61ab4bcb01</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
-        <trigger display_value="">08bc1e0e977111101f5bb0efe153afef</trigger>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
+        <trigger display_value="">4f8c77921b359910b342dc61ab4bcb00</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>8cbc1e0e977111101f5bb0efe153afef</document_id>
+        <document_id>c78c77921b359910b342dc61ab4bcb01</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-09 08:16:32</sys_created_on>
-        <sys_id>40bc1e0e977111101f5bb0efe153aff0</sys_id>
+        <sys_created_by>egzon.tatari@alumni.fh-aachen.de</sys_created_by>
+        <sys_created_on>2022-09-10 09:53:50</sys_created_on>
+        <sys_id>8f8c77921b359910b342dc61ab4bcb01</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1a3492a3972111101f5bb0efe153af22^sys_idNOT IN8cbc1e0e977111101f5bb0efe153afef"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=1a3492a3972111101f5bb0efe153af22^sys_idNOT INc78c77921b359910b342dc61ab4bcb01"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=1a3492a3972111101f5bb0efe153af22^sys_idNOT INa22652a7972111101f5bb0efe153afc3"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment>New Registration Attempt</comment>
@@ -103,10 +102,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>a22652a7972111101f5bb0efe153afc3</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -218,14 +217,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>262652a7972111101f5bb0efe153afa0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -299,14 +298,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>e62652a7972111101f5bb0efe153afa5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -327,7 +326,6 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent/>
         <comment>Ask the Admin for Co-Worker for Registration Approval</comment>
-        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
         <order>1</order>
@@ -336,10 +334,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>222652a7972111101f5bb0efe153afd4</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>581547bd-6a8e-40e8-a46d-9e2568958c2f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=222652a7972111101f5bb0efe153afd4"/>
@@ -406,11 +404,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:54:21</sys_created_on>
         <sys_id>2e4d5e6f972111101f5bb0efe153afe4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-01 13:54:21</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:39:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.6816f79cc0a8016401c5a33be04be441}}]G[{{static.891b92ab972111101f5bb0efe153af38}},{{static.a4cadaab972111101f5bb0efe153afde}}]</value>
+        <value>ApprovesRejectsAnyG[{{static.9e83f71a1bf19910b342dc61ab4bcbd8}},{{static.c9933b1a1bf19910b342dc61ab4bcb42}},{{static.896543621b6d11107165fdd49b4bcb8c}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -430,11 +428,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:13</sys_created_on>
         <sys_id>622652a7972111101f5bb0efe153afd6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:07:31</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:39:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{"action":"reject","date_type":"relative","date":"{{Created_1.current.sys_created_on}}","duration":"5","duration_type":"days","schedule":"","schedule_label":""}</value>
+        <value>{"action":"none","date_type":"relative","date":"{{Created_1.current.sys_created_on}}","duration":"5","duration_type":"days","schedule":"","schedule_label":""}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>journal_field</field>
@@ -480,7 +478,6 @@
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
         <comment>Notify Guest</comment>
-        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
         <order>7</order>
@@ -489,10 +486,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>362652a7972111101f5bb0efe153afe8</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>d01c1f6a-7eac-42cb-bdde-580d8857e3e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=362652a7972111101f5bb0efe153afe8"/>
@@ -569,7 +566,6 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment>Update Stat to desired Role</comment>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
         <order>3</order>
@@ -578,10 +574,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>3e2652a7972111101f5bb0efe153afdf</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e2652a7972111101f5bb0efe153afdf"/>
@@ -593,10 +589,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>3e2652a7972111101f5bb0efe153afe1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:29:56</sys_updated_on>
-        <value>u_credentials=fd-scripted^=</value>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:49:19</sys_updated_on>
+        <value/>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -644,11 +640,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>ba2652a7972111101f5bb0efe153afe1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-01 13:23:14</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:49:19</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
+        <value>u_credentials=fd-scripted^user={{Created_1.current.user}}^verified_role={{Created_1.current.verified_role}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3e2652a7972111101f5bb0efe153afdf^sys_idNOT IN672f9eef972111101f5bb0efe153af45,da10ae23976111101f5bb0efe153af54"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -656,13 +652,13 @@
         <input_name>values</input_name>
         <instance>3e2652a7972111101f5bb0efe153afdf</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"u_credentials":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar groupQuery \u003d new GlideRecord(\u0027sys_user_grmember\u0027)\ngroupQuery.initialize()\ngroupQuery.user \u003d fd_data.trigger.current.user; //whatever your current user field is\nif(fd_data.trigger.current.verified_role \u003d\u003d 1){\n    // add to student\n    groupQuery.group \u003d \"06ba92eb972111101f5bb0efe153af78\"\n}else{\n    // add to co-worker\n    groupQuery.group \u003d \"a4cadaab972111101f5bb0efe153afde\"\n}\n\ngroupQuery.insert();\nfd_data.trigger.current.setValue(\"credential\", \"confirmed and expired\");","savedValue":""}}</script>
+        <script>{"u_credentials":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar groupQuery \u003d new GlideRecord(\u0027sys_user_grmember\u0027)\ngroupQuery.initialize()\ngroupQuery.user \u003d fd_data.trigger.current.user; //whatever your current user field is\nif(fd_data.trigger.current.verified_role \u003d\u003d 1){\n    // add to student\n    groupQuery.group \u003d \"50a33b1a1bf19910b342dc61ab4bcbe2\"\n}else{\n    // add to co-worker\n    groupQuery.group \u003d \"c9933b1a1bf19910b342dc61ab4bcb42\"\n}\n\ngroupQuery.insert();\nfd_data.trigger.current.setValue(\"credential\", \"confirmed and expired\");\n\nreturn fd_data.trigger.current.u_credentials;","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:02:36</sys_created_on>
         <sys_id>672f9eef972111101f5bb0efe153af45</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:29:56</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:41</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -684,7 +680,6 @@
         <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
         <action_type_parent/>
         <comment>Delete Stat Record</comment>
-        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
         <order>6</order>
@@ -693,10 +688,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 08:13:15</sys_created_on>
         <sys_id>58c88ced973111101f5bb0efe153afdc</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>e896b1f5-2a3e-4958-9824-aaafd51e2777</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=58c88ced973111101f5bb0efe153afdc"/>
@@ -721,7 +716,6 @@
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent/>
         <comment>Notify former Guest</comment>
-        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">1a3492a3972111101f5bb0efe153af22</flow>
         <order>4</order>
@@ -730,10 +724,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:36:19</sys_created_on>
         <sys_id>9229166b972111101f5bb0efe153af93</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>879bc610-109b-423d-8f61-6399944f0895</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9229166b972111101f5bb0efe153af93"/>
@@ -807,7 +801,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1a3492a3972111101f5bb0efe153af22"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=1a3492a3972111101f5bb0efe153af22^sys_idNOT IN2e2652a7972111101f5bb0efe153afd7,3e2652a7972111101f5bb0efe153afe2"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">ee2652a7972111101f5bb0efe153afd6</block>
+        <block display_value="">02393f5e1bf19910b342dc61ab4bcbf4</block>
         <comment>If Registration approved</comment>
         <connected_to/>
         <decision_table/>
@@ -828,10 +822,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>2e2652a7972111101f5bb0efe153afd7</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>2702472c-b128-4b5b-aeb2-4df19cd42f7d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -879,7 +873,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2e2652a7972111101f5bb0efe153afd7"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2e2652a7972111101f5bb0efe153afd7"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">762652a7972111101f5bb0efe153afe2</block>
+        <block display_value="">0a393f5e1bf19910b342dc61ab4bcbfb</block>
         <comment>If rejected</comment>
         <connected_to>2702472c-b128-4b5b-aeb2-4df19cd42f7d</connected_to>
         <decision_table/>
@@ -899,10 +893,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 13:23:14</sys_created_on>
         <sys_id>3e2652a7972111101f5bb0efe153afe2</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <ui_id>84b18e87-706e-4631-b8f4-0c665644d711</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -973,12 +967,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0cc1a2e3976111101f5bb0efe153af60</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
-        <trigger display_value="">08bc1e0e977111101f5bb0efe153afef</trigger>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
+        <trigger display_value="">4f8c77921b359910b342dc61ab4bcb00</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1a3492a3972111101f5bb0efe153af22"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -992,7 +986,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>rental_service_registration</internal_name>
-        <label_cache>[{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__dont_treat_as_error__","label":"5 - Apply Change Approval Policy➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__action_status__","label":"5 - Apply Change Approval Policy➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.decisions","label":"5 - Apply Change Approval Policy➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.state","label":"5 - Apply Change Approval Policy➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Not Yet Requested","value":"not requested","order":0.0},{"label":"Requested","value":"requested","order":1.0},{"label":"Approved","value":"approved","order":2.0},{"label":"Rejected","value":"rejected","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0},{"label":"No Longer Required","value":"not_required","order":5.0},{"label":"Skipped","value":"skipped","order":6.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.891b92ab972111101f5bb0efe153af38}}","label":"Faculty Admin - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__dont_treat_as_error__","label":"5 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__action_status__","label":"5 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__dont_treat_as_error__","label":"7 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__action_status__","label":"7 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.table_name","label":"3 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.record","label":"3 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.record","label":"5 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.table_name","label":"5 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Stats Record➛Appeal from","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_stats","column_name":"user"},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Stats Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_879255_rental_se_stats","column_name":"sys_created_on"},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__action_status__","label":"6 - Delete Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__dont_treat_as_error__","label":"6 - Delete Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.verified_role","label":"Trigger - Record Created➛Stats Record➛Applying for role","reference":"","reference_display":"Applying for role","type":"choice","base_type":"choice","parent_table_name":"x_879255_rental_se_stats","column_name":"verified_role","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"used":false,"label":"co-worker","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"co-worker","value":"2","parameters":{"name":"x_879255_rental_se_stats"}},{"used":false,"label":"student","image":"","reference":false,"selected":false,"missing":false,"rawLabel":"student","value":"1","parameters":{"name":"x_879255_rental_se_stats"}}]},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__dont_treat_as_error__","label":"6 - Delete Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e896b1f5-2a3e-4958-9824-aaafd51e2777.__action_status__","label":"6 - Delete Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.sys_created_on","label":"Trigger - Record Created➛Stats Record➛Created","reference":"","reference_display":"Created","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_879255_rental_se_stats","column_name":"sys_created_on"},{"name":"Created_1.current.user","label":"Trigger - Record Created➛Stats Record➛Applicant","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_879255_rental_se_stats","column_name":"user"},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__dont_treat_as_error__","label":"5 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.__action_status__","label":"5 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.table_name","label":"5 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"29fa71fc-38b2-40ea-96e9-c9e9bf56c71e.record","label":"5 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"879bc610-109b-423d-8f61-6399944f0895.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.state","label":"1 - Wait For Condition➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Complete","value":"0","order":0.0},{"label":"Timeout","value":"1","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__action_status__","label":"1 - Wait For Condition➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9522d96d-e7e0-4ae8-bc03-f21407ccf06d.__dont_treat_as_error__","label":"1 - Wait For Condition➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__action_status__","label":"1 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"581547bd-6a8e-40e8-a46d-9e2568958c2f.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.record","label":"3 - Update Record➛Stats Record","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.table_name","label":"3 - Update Record➛Stats Table","reference":"x_879255_rental_se_stats","reference_display":"Stats","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__action_status__","label":"7 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d01c1f6a-7eac-42cb-bdde-580d8857e3e7.__dont_treat_as_error__","label":"7 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.approval_state","label":"5 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__action_status__","label":"5 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"5a239513-2ef5-4055-b89e-b2a4a8f1257b.__dont_treat_as_error__","label":"5 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"{{static.891b92ab972111101f5bb0efe153af38}}","label":"Faculty Admin - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.a4cadaab972111101f5bb0efe153afde}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator - Record Created","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.state","label":"5 - Apply Change Approval Policy➛State","reference_display":"State","type":"choice","base_type":"choice","choices":[{"label":"Not Yet Requested","value":"not requested","order":0.0},{"label":"Requested","value":"requested","order":1.0},{"label":"Approved","value":"approved","order":2.0},{"label":"Rejected","value":"rejected","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0},{"label":"No Longer Required","value":"not_required","order":5.0},{"label":"Skipped","value":"skipped","order":6.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"ffef9f46-2397-4435-939c-3bb37b7a39a7"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.decisions","label":"5 - Apply Change Approval Policy➛Decisions","reference_display":"Decisions","type":"string_full_utf8","base_type":"string_full_utf8","attributes":{"visible_in_fd":"false","uiTypeLabel":"String (Full UTF-8)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string_full_utf8","uiUniqueId":"ceae4573-7f3f-46d0-a26e-13923ca0252b"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__action_status__","label":"5 - Apply Change Approval Policy➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"75ef989b-8c0e-4a3c-9c03-94c2e9ccf7a8.__dont_treat_as_error__","label":"5 - Apply Change Approval Policy➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"{{static.9e83f71a1bf19910b342dc61ab4bcbd8}}","label":"Faculty Admin - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.c9933b1a1bf19910b342dc61ab4bcb42}}","label":"Faculty Co-Worker - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"{{static.896543621b6d11107165fdd49b4bcb8c}}","label":"Administrator - Record Created","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"}]</label_cache>
         <master>true</master>
         <name>Rental Service Registration</name>
         <natlang/>
@@ -1009,15 +1003,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6fb162e3976111101f5bb0efe153afd2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:31</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=6fb162e3976111101f5bb0efe153afd2"/>
@@ -1032,10 +1026,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7bb1a2e3976111101f5bb0efe153af23</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:32</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:50</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1147,14 +1141,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>23b162e3976111101f5bb0efe153afd5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1228,14 +1222,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>efb162e3976111101f5bb0efe153aff1</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1256,7 +1250,6 @@
         <action_type display_value="Delete Record">c3e09916c31332002841b63b12d3aedf</action_type>
         <action_type_parent display_value="Delete Record">a8f274c8c3c232002841b63b12d3aee9</action_type_parent>
         <comment>Delete Stat Record</comment>
-        <compiled_snapshot>c3e09916c31332002841b63b12d3aedf</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
         <order>6</order>
@@ -1265,10 +1258,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-07 08:38:48</sys_created_on>
         <sys_id>329e08e5977111101f5bb0efe153af30</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:31</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>e896b1f5-2a3e-4958-9824-aaafd51e2777</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=329e08e5977111101f5bb0efe153af30"/>
@@ -1293,7 +1286,6 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment>Update Stat to desired Role</comment>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
         <order>3</order>
@@ -1302,10 +1294,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>33b1a2e3976111101f5bb0efe153af14</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>44c6d8c4-f527-4ed5-a8c6-040f3dd6cf24</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=33b1a2e3976111101f5bb0efe153af14"/>
@@ -1331,10 +1323,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>f7b1a2e3976111101f5bb0efe153af16</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:48</sys_updated_on>
-        <value>u_credentials=fd-scripted^=</value>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:51:26</sys_updated_on>
+        <value/>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=33b1a2e3976111101f5bb0efe153af14"/>
@@ -1368,11 +1360,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>77b1a2e3976111101f5bb0efe153af16</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-01 14:13:49</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:51:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
+        <value>u_credentials=fd-scripted^user={{Created_1.current.user}}^verified_role={{Created_1.current.verified_role}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=33b1a2e3976111101f5bb0efe153af14^sys_idNOT INf7b1a2e3976111101f5bb0efe153af15,ffb1a2e3976111101f5bb0efe153af14"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -1380,13 +1372,13 @@
         <input_name>values</input_name>
         <instance>33b1a2e3976111101f5bb0efe153af14</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"u_credentials":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar groupQuery \u003d new GlideRecord(\u0027sys_user_grmember\u0027)\ngroupQuery.initialize()\ngroupQuery.user \u003d fd_data.trigger.current.user; //whatever your current user field is\nif(fd_data.trigger.current.verified_role \u003d\u003d 1){\n    // add to student\n    groupQuery.group \u003d \"06ba92eb972111101f5bb0efe153af78\"\n}else{\n    // add to co-worker\n    groupQuery.group \u003d \"a4cadaab972111101f5bb0efe153afde\"\n}\n\ngroupQuery.insert();\nfd_data.trigger.current.setValue(\"credential\", \"confirmed and expired\");","savedValue":""}}</script>
+        <script>{"u_credentials":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar groupQuery \u003d new GlideRecord(\u0027sys_user_grmember\u0027)\ngroupQuery.initialize()\ngroupQuery.user \u003d fd_data.trigger.current.user; //whatever your current user field is\nif(fd_data.trigger.current.verified_role \u003d\u003d 1){\n    // add to student\n    groupQuery.group \u003d \"50a33b1a1bf19910b342dc61ab4bcbe2\"\n}else{\n    // add to co-worker\n    groupQuery.group \u003d \"c9933b1a1bf19910b342dc61ab4bcb42\"\n}\n\ngroupQuery.insert();\nfd_data.trigger.current.setValue(\"credential\", \"confirmed and expired\");\n\nreturn fd_data.trigger.current.u_credentials;","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>f7b1a2e3976111101f5bb0efe153af15</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:38:48</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:48</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -1408,7 +1400,6 @@
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
         <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
         <comment>Ask the Admin for Co-Worker for Registration Approval</comment>
-        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
         <order>1</order>
@@ -1417,10 +1408,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>3bb1a2e3976111101f5bb0efe153af0b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>581547bd-6a8e-40e8-a46d-9e2568958c2f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3bb1a2e3976111101f5bb0efe153af0b"/>
@@ -1473,11 +1464,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7fb1a2e3976111101f5bb0efe153af0d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-01 14:13:49</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:51:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>ApprovesRejectsAnyU[{{static.6816f79cc0a8016401c5a33be04be441}}]G[{{static.891b92ab972111101f5bb0efe153af38}},{{static.a4cadaab972111101f5bb0efe153afde}}]</value>
+        <value>ApprovesRejectsAnyG[{{static.9e83f71a1bf19910b342dc61ab4bcbd8}},{{static.c9933b1a1bf19910b342dc61ab4bcb42}},{{static.896543621b6d11107165fdd49b4bcb8c}}]</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>approval_field</field>
@@ -1497,11 +1488,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>bbb1a2e3976111101f5bb0efe153af0d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-07 08:07:39</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:51:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{"action":"reject","date_type":"relative","date":"{{Created_1.current.sys_created_on}}","duration":"5","duration_type":"days","schedule":"","schedule_label":""}</value>
+        <value>{"action":"none","date_type":"relative","date":"{{Created_1.current.sys_created_on}}","duration":"5","duration_type":"days","schedule":"","schedule_label":""}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
@@ -1535,7 +1526,6 @@
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <comment>Notify Guest</comment>
-        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
         <order>7</order>
@@ -1544,10 +1534,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7bb1a2e3976111101f5bb0efe153af21</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:31</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>d01c1f6a-7eac-42cb-bdde-580d8857e3e7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7bb1a2e3976111101f5bb0efe153af21"/>
@@ -1624,7 +1614,6 @@
         <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
         <action_type_parent display_value="Send Notification">7eda5d710f11101051218e8ebc767ec1</action_type_parent>
         <comment>Notify former Guest</comment>
-        <compiled_snapshot>0d8dd9f10f11101051218e8ebc767e27</compiled_snapshot>
         <display_text/>
         <flow display_value="Rental Service Registration">6fb162e3976111101f5bb0efe153afd2</flow>
         <order>4</order>
@@ -1633,10 +1622,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>7fb1a2e3976111101f5bb0efe153af1b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>879bc610-109b-423d-8f61-6399944f0895</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7fb1a2e3976111101f5bb0efe153af1b"/>
@@ -1710,7 +1699,7 @@
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=6fb162e3976111101f5bb0efe153afd2"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=6fb162e3976111101f5bb0efe153afd2^sys_idNOT IN73b162e3976111101f5bb0efe153affd,73b1a2e3976111101f5bb0efe153af02"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">ee2652a7972111101f5bb0efe153afd6</block>
+        <block display_value="">02393f5e1bf19910b342dc61ab4bcbf4</block>
         <comment>If Registration approved</comment>
         <connected_to/>
         <decision_table/>
@@ -1731,10 +1720,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>73b162e3976111101f5bb0efe153affd</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>2702472c-b128-4b5b-aeb2-4df19cd42f7d</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1782,7 +1771,7 @@
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=73b162e3976111101f5bb0efe153affd"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=73b162e3976111101f5bb0efe153affd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">762652a7972111101f5bb0efe153afe2</block>
+        <block display_value="">0a393f5e1bf19910b342dc61ab4bcbfb</block>
         <comment>If rejected</comment>
         <connected_to>2702472c-b128-4b5b-aeb2-4df19cd42f7d</connected_to>
         <decision_table/>
@@ -1802,10 +1791,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-01 14:13:49</sys_created_on>
         <sys_id>73b1a2e3976111101f5bb0efe153af02</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-09 08:16:30</sys_updated_on>
+        <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
+        <sys_updated_on>2022-09-10 09:53:49</sys_updated_on>
         <ui_id>84b18e87-706e-4631-b8f4-0c665644d711</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1865,8 +1854,9 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6fb162e3976111101f5bb0efe153afd2"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6fb162e3976111101f5bb0efe153afd2"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6fb162e3976111101f5bb0efe153afd2"/>
-    <sys_hub_flow action="update">
+    <sys_hub_flow action="UPDATE">
         <sys_id>1a3492a3972111101f5bb0efe153af22</sys_id>
         <latest_snapshot>6fb162e3976111101f5bb0efe153afd2</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch6-07-21-2022_07-29-2022_1727.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
