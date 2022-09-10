@@ -18,7 +18,7 @@ ValidationUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	},
 	isDatePast: function(strDate){
 		// Create GlideDateTime objects for the current date and the passed in date
-		var rightnow = new GlideDateTime();
+		var rightnow = new GlideDateTime().getDate();
 		var testdate = new GlideDateTime(strDate);
 
 		// If the testdate is before rightnow, return true, else return false
@@ -32,7 +32,7 @@ ValidationUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	isDateToday: function(strDate){
     
 		// Create GlideDateTime objects for the current date and the passed in date
-		var rightnow = new GlideDateTime();
+		var rightnow = new GlideDateTime().getDate();
 		var testdate = new GlideDateTime(strDate);
 		// Get the date portion of rightnow and testdate (no timestamp)
 		var today = rightnow.getLocalDate();
@@ -57,13 +57,13 @@ ValidationUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-31 14:38:04</sys_created_on>
         <sys_id>f22d155b972111101f5bb0efe153af4a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>ValidationUtils</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_include_f22d155b972111101f5bb0efe153af4a</sys_update_name>
         <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
-        <sys_updated_on>2022-09-10 10:31:15</sys_updated_on>
+        <sys_updated_on>2022-09-10 10:40:43</sys_updated_on>
     </sys_script_include>
 </record_update>
