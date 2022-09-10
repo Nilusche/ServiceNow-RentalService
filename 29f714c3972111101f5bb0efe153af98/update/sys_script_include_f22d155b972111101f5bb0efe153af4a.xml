@@ -33,12 +33,10 @@ ValidationUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     
 		// Create GlideDateTime objects for the current date and the passed in date
 		var rightnow = new GlideDateTime().getDate();
-		var testdate = new GlideDateTime(strDate);
+		var testdate = new GlideDateTime(strDate).getDate();
 		// Get the date portion of rightnow and testdate (no timestamp)
-		var today = rightnow.getLocalDate();
-		var test = testdate.getLocalDate();
 		// Compare today and istoday to see if they are the same day
-		return today == test;
+		return rightnow == testdate;
 	},
 	isDateBefore: function(strDate_first, strDate_second){
 		var first = new GlideDateTime(strDate_first);
@@ -57,13 +55,13 @@ ValidationUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-31 14:38:04</sys_created_on>
         <sys_id>f22d155b972111101f5bb0efe153af4a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>ValidationUtils</sys_name>
         <sys_package display_value="Rental Service" source="x_879255_rental_se">29f714c3972111101f5bb0efe153af98</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Rental Service">29f714c3972111101f5bb0efe153af98</sys_scope>
         <sys_update_name>sys_script_include_f22d155b972111101f5bb0efe153af4a</sys_update_name>
         <sys_updated_by>egzon.tatari@alumni.fh-aachen.de</sys_updated_by>
-        <sys_updated_on>2022-09-10 10:40:43</sys_updated_on>
+        <sys_updated_on>2022-09-10 10:56:28</sys_updated_on>
     </sys_script_include>
 </record_update>
